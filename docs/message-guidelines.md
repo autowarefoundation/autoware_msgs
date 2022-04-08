@@ -14,14 +14,16 @@ The accepted formats are:
 
 All the fields by default have the following units depending on their types:
 
-| type         | default unit  |
-|--------------|---------------|
-| distance     | meter (m)     |
-| angle        | radians (rad) |
-| time         | second (s)    |
-| speed        | m/s           |
-| velocity     | m/s           |
-| acceleration | m/s²          |
+| type           | default unit  |
+|----------------|---------------|
+| distance       | meter (m)     |
+| angle          | radians (rad) |
+| time           | second (s)    |
+| speed          | m/s           |
+| velocity       | m/s           |
+| acceleration   | m/s²          |
+| angular vel.   | rad/s         |
+| angular accel. | rad/s²        |
 
 If the field in a message will have any of these default units, don't add any suffix or prefix denoting the type.
 
@@ -74,7 +76,7 @@ On top of the message, briefly explain what the message contains and/or what it 
 If necessary, add line comments before the fields that explain the context and/or meaning.
 For simple fields like `x, y, z, w` you might not need to add comments.
 
-Even though it is not strictly checked, try not to pass 120 characters in a line.
+Even though it is not strictly checked, try not to pass 100 characters in a line.
 
 *Example:*
 ```
