@@ -1,6 +1,6 @@
 # Control message with lateral and longitudinal components
 
-std_msgs/Header header
+builtin_interfaces/Time stamp
 
 ControlLateral control_lateral
 ControlLongitudinal control_longitudinal

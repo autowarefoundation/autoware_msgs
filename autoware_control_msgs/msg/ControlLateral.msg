@@ -10,7 +10,7 @@
 #
 # Illustration: https://autowarefoundation.github.io/autoware-documentation/pr-79/design/autoware-interfaces/components/vehicle-dimensions/#vehicle-dimensions_1
 
-std_msgs/Header header
+builtin_interfaces/Time stamp
 
 # Desired angle of the steering tire in rad (radians)
 float32 steering_tire_angle

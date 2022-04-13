@@ -4,7 +4,7 @@
 #
 #
 
-std_msgs/Header header
+builtin_interfaces/Time stamp
 
 ControlLateral[] control_laterals
 ControlLongitudinal[] control_longitudinals

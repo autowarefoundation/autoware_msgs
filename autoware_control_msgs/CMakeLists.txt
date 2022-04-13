@@ -8,7 +8,7 @@ set(msg_files
   "msg/Accel.msg")
 
 set(msg_dependencies
-  std_msgs)
+  builtin_interfaces)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}

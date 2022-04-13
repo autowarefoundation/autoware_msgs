@@ -3,7 +3,7 @@
 # Positive values represent forward motion (+X)
 # Negative values represent backward motion (-X)
 
-std_msgs/Header header
+builtin_interfaces/Time stamp
 
 # Desired vehicle speed in m/s
 float32 speed;
