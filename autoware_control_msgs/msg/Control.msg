@@ -2,5 +2,5 @@
 
 builtin_interfaces/Time stamp
 
-ControlLateral control_lateral
-ControlLongitudinal control_longitudinal
+Lateral lateral
+Longitudinal longitudinal
