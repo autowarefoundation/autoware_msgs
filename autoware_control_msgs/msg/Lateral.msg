@@ -16,7 +16,7 @@ builtin_interfaces/Time stamp
 float32 steering_tire_angle
 
 # Desired rate of change of the steering tire angle in rad/s
-float32 steering_tire_rotation_rate;
+float32 steering_tire_rotation_rate
 
 # Controller has filled in the steering_tire_rotation_rate value
-bool is_defined_steering_tire_rotation_rate;
+bool is_defined_steering_tire_rotation_rate
