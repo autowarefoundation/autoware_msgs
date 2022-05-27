@@ -7,8 +7,6 @@
 #
 # Positive values represents left inclination (if forward)
 # Negative values represents right inclination (if forward)
-#
-# Illustration: https://autowarefoundation.github.io/autoware-documentation/pr-79/design/autoware-interfaces/components/vehicle-dimensions/#vehicle-dimensions_1
 
 builtin_interfaces/Time stamp
 
