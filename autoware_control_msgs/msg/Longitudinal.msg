@@ -5,7 +5,11 @@
 # Positive values represent forward motion (+X)
 # Negative values represent backward motion (-X)
 
+# Time this message was created
 builtin_interfaces/Time stamp
+
+# Time this configuration state is expected to be achieved in (optional)
+builtin_interfaces/Time control_time
 
 # Desired vehicle velocity in in m/s
 float32 velocity
