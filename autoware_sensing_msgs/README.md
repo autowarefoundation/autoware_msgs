@@ -15,11 +15,16 @@
 
 ### Position
 
-#### GnssInsPositionStamped.msg
-
-This message contains the GNSS-INS position information.
+For this information, you can use the [NavSatFix](https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/NavSatFix.html) message.
 
 If the sensor provides MSL(Mean Sea Level) for altitude, you can use it for the altitude field.
+
+- `sensor_msgs/NavSatFix` following fields are used:
+  - `std_msgs/Header` header
+  - `float64` latitude
+  - `float64` longitude
+  - `float64` altitude
+  - `float64[9]` position_covariance
 
 For detailed info about the east, north, up, see the [Coordinate Axes Conventions](#coordinate-axes-conventions).
 
@@ -39,11 +44,11 @@ For detailed info about the roll, pitch, yaw and rotation axes see the [Coordina
 
 ### Velocity
 
-For this information, you can use the [TwistWithCovarianceStamped](http://docs.ros.org/en/lunar/api/geometry_msgs/html/msg/TwistWithCovarianceStamped.html) message.
+For this information, you can use the [TwistWithCovarianceStamped](http://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/TwistWithCovarianceStamped.html) message.
 
 Its structure is as follows:
 
-- geometry_msgs/TwistWithCovarianceStamped
+- `geometry_msgs/TwistWithCovarianceStamped` following fields are used:
 
   - `std_msgs/Header` header
   - `geometry_msgs/TwistWithCovariance` twist
@@ -64,7 +69,7 @@ For this information, you can use the [AccelWithCovarianceStamped](https://docs.
 
 Its structure is as follows:
 
-- geometry_msgs/AccelWithCovarianceStamped
+- `geometry_msgs/AccelWithCovarianceStamped` following fields are used:
 
   - `std_msgs/Header` header
   - `geometry_msgs/AccelWithCovariance` accel
