@@ -20,10 +20,8 @@ jobs:
         include:
           - rosdistro: galactic
             container: ros:galactic
-            build-depends-repos: build_depends.repos
           - rosdistro: humble
             container: ros:humble
-            build-depends-repos: build_depends.repos
     steps:
       - name: Check out repository
         uses: actions/checkout@v3
@@ -41,7 +39,6 @@ jobs:
         with:
           rosdistro: ${{ matrix.rosdistro }}
           target-packages: ${{ steps.get-self-packages.outputs.self-packages }}
-          build-depends-repos: ${{ matrix.build-depends-repos }}
 
       - name: Test
         if: ${{ steps.get-self-packages.outputs.self-packages != '' }}
@@ -50,7 +47,6 @@ jobs:
         with:
           rosdistro: ${{ matrix.rosdistro }}
           target-packages: ${{ steps.get-self-packages.outputs.self-packages }}
-          build-depends-repos: ${{ matrix.build-depends-repos }}
 
       - name: Upload coverage to CodeCov
         if: ${{ steps.test.outputs.coverage-report-files != '' }}

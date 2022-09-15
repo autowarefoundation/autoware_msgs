@@ -28,4 +28,8 @@
 - repository: autowarefoundation/autoware_common
   files:
     - source: .github/workflows/build-and-test.yaml
+      pre-commands: |
+        sed -i '/build-depends-repos/d' {source}
     - source: .github/workflows/build-and-test-differential.yaml
+      pre-commands: |
+        sed -i '/build-depends-repos/d' {source}
