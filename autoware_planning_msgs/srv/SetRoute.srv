@@ -2,5 +2,4 @@ std_msgs/Header header
 geometry_msgs/Pose goal
 autoware_planning_msgs/VectorMapSegment[] segments
 ---
-uint16 ERROR_ROUTE_EXISTS = 1
-autoware_ad_api_msgs/ResponseStatus status
+autoware_common_msgs/ResponseStatus status

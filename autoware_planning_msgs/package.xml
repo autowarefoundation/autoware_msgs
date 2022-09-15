@@ -9,10 +9,10 @@
 
   <buildtool_depend>ament_cmake_auto</buildtool_depend>
 
-  <build_depend>autoware_cmake</build_depend>
   <build_depend>rosidl_default_generators</build_depend>
 
-  <depend>autoware_ad_api_msgs</depend>
+  <depend>autoware_common_msgs</depend>
+  <depend>geometry_msgs</depend>
   <depend>std_msgs</depend>
 
   <exec_depend>rosidl_default_runtime</exec_depend>

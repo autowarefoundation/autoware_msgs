@@ -10,7 +10,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/VectorMapSegment.msg"
   "srv/SetRoute.srv"
   DEPENDENCIES
-    autoware_ad_api_msgs
+    autoware_common_msgs
+    geometry_msgs
     std_msgs
   ADD_LINTER_TESTS
 )
