@@ -8,13 +8,13 @@ The message represents an area information. This is intended to be used as a que
 
 The message contains a pointcloud data attached with an ID.
 
-## PartialLoadPCDMaps.srv
+## PartialPointCloudMap.srv
 
 Given an area query (`AreaInfo`), the response is expected to contain the PCD maps (each of which attached with unique ID) whose area overlaps with the query.
 
 <img src="./media/partial_area_loading.png" alt="drawing" width="400"/>
 
-## DifferentialLoadPCDMaps.srv
+## DifferentialPointCloudMap.srv
 
 Given an area query and the IDs that the client node already has, the response is expected to contain the PCD maps (each of which attached with unique ID) that...
 
