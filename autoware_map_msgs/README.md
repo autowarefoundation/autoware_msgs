@@ -20,7 +20,7 @@ Given an area query (`AreaInfo`), the response is expected to contain the PCD ma
 
 ### Mode 2: Differential map loading
 
-Given an area query and the IDs that the client node already has, the response is exptected to contain the PCD maps (each of which attached with unique ID) that...
+Given an area query and the IDs that the client node already has, the response is expected to contain the PCD maps (each of which attached with unique ID) that...
 
 - overlaps with the area query
 - is not possessed by the client node
