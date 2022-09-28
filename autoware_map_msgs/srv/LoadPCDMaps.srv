@@ -15,7 +15,7 @@ string[] already_loaded_ids
 
 ---
 # Newly loaded PCD maps with ID
-PCDMapWithID[] loaded_pcds
+PointCloudMapWithID[] loaded_pcds
 
 # IDs of map that satisfies the query and is already loaded
 # (only used when mode = MODE_DIFFERENTIAL_AREA_LOAD)
