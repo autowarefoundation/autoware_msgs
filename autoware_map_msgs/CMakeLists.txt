@@ -18,7 +18,7 @@ ament_auto_find_build_dependencies()
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/AreaInfo.msg"
   "msg/PCDMapWithID.msg"
-  "srv/LoadPCDMapsGeneral.srv"
+  "srv/LoadPCDMapsWithIDs.srv"
   DEPENDENCIES
     std_msgs
     geometry_msgs
