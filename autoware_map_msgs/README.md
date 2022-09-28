@@ -27,7 +27,7 @@ Given an area query and the IDs that the client node already has, the response i
 
 Let $X_0$ be a set of PCD map ID that the client node has, $X_1$ be a set of PCD map ID that overlaps with the area query, ${\rm pcd}(id)$ be a function that returns PCD data that corresponds to ID $id$. In this case, the response would be
 
-- `loaded_pcds`: $\{ [id,{\rm pcd}(id)]~|~id \in X_1 \backslash X_0 \}$
-- `already_loaded_ids`: $\{ id~|~id \in X_1 \cap X_0  \}$
+- `loaded_pcds`: $\lbrace [id,{\rm pcd}(id)]~|~id \in X_1 \backslash X_0 \rbrace$
+- `already_loaded_ids`: $\lbrace id~|~id \in X_1 \cap X_0  \rbrace$
 
 <img src="./media/differential_area_loading.gif" alt="drawing" width="400"/>
