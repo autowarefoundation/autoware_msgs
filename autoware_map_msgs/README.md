@@ -26,6 +26,6 @@ Let $X_0$ be a set of PCD map ID that the client node has, $X_1$ be a set of PCD
 - `loaded_pcds`: $\lbrace [id,{\rm pcd}(id)]~|~id \in X_1 \backslash X_0 \rbrace$
 - `ids_to_remove`: $\lbrace id~|~id \in X_0 \backslash X_1 \rbrace$
 
-($x \in A\backslash B \iff x \in A \wedge x \notin B$)
+( $x \in A\backslash B \iff x \in A \wedge x \notin B$ )
 
 <img src="./media/differential_area_loading.gif" alt="drawing" width="400"/>
