@@ -9,5 +9,5 @@ string[] already_loaded_ids
 # Newly loaded PCD maps with ID
 PointCloudMapWithID[] loaded_pcds
 
-# IDs of map that satisfies the query and is already loaded
-string[] already_loaded_ids
+# Map IDs that the client side should remove
+string[] ids_to_remove
