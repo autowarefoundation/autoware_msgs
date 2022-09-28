@@ -1,6 +1,5 @@
 # autoware_map_msgs
 
-
 ### AreaInfo.msg
 
 Defines a lateral control command message with a timestamp.
@@ -13,6 +12,4 @@ The message conveys the expectation for vehicle's lateral state to be in the giv
 
 ### PCDMapWithID.msg
 
-
 ### LoadPCDMapsGeneral.srv
-
