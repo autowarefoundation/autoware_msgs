@@ -8,17 +8,13 @@ The message represents an area information. This is intended to be used as a que
 
 The message contains a pointcloud data attached with an ID.
 
-## LoadPCDMaps.srv
-
-The service is used for various types of pointcloud map loading requests.
-
-### Mode 1: Partial map loading
+## PartialLoadPCDMaps.srv
 
 Given an area query (`AreaInfo`), the response is expected to contain the PCD maps (each of which attached with unique ID) whose area overlaps with the query.
 
 <img src="./media/partial_area_loading.png" alt="drawing" width="400"/>
 
-### Mode 2: Differential map loading
+## DifferentialLoadPCDMaps.srv
 
 Given an area query and the IDs that the client node already has, the response is expected to contain the PCD maps (each of which attached with unique ID) that...
 

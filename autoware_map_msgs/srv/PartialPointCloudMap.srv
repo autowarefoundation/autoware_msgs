@@ -1,0 +1,7 @@
+# Area query for map loading
+# (PCD grids that overlaps with the area is going to be loaded)
+AreaInfo area
+
+---
+# Newly loaded PCD maps with ID
+PointCloudMapWithID[] loaded_pcds
