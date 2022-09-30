@@ -4,4 +4,4 @@ AreaInfo area
 
 ---
 # Newly loaded PCD maps with ID
-PointCloudMapWithID[] ids_to_remove
+PointCloudMapWithID[] loaded_pcds
