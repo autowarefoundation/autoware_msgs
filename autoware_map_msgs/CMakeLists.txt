@@ -7,8 +7,8 @@ ament_auto_find_build_dependencies()
 set(msg_files
   "msg/AreaInfo.msg"
   "msg/PointCloudMapWithID.msg"
-  "srv/PartialPointCloudMap.srv"
-  "srv/DifferentialPointCloudMap.srv")
+  "srv/LoadPartialPointCloudMap.srv"
+  "srv/LoadDifferentialPointCloudMap.srv")
 
 set(msg_dependencies
   std_msgs
