@@ -1,3 +1,3 @@
 # Pointcloud data with ID
-string id
+string cell_id
 sensor_msgs/PointCloud2 pointcloud
