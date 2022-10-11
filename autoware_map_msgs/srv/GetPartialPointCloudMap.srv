@@ -4,4 +4,4 @@ AreaInfo area
 
 ---
 # Newly loaded PCD maps with ID
-PointCloudMapWithID[] new_pointcloud_with_ids
+PointCloudMapCellWithID[] new_pointcloud_with_ids

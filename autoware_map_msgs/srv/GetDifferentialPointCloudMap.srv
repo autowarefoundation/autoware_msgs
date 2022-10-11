@@ -7,7 +7,7 @@ string[] cached_ids
 
 ---
 # Newly loaded PCD maps with ID
-PointCloudMapWithID[] new_pointcloud_with_ids
+PointCloudMapCellWithID[] new_pointcloud_with_ids
 
 # Map IDs that the client side should remove
 string[] ids_to_remove
