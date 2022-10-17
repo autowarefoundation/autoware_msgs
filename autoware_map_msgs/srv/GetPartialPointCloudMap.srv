@@ -5,3 +5,6 @@ AreaInfo area
 ---
 # Newly loaded PCD maps with ID
 PointCloudMapCellWithID[] new_pointcloud_with_ids
+
+# Frame ID
+string frame_id
