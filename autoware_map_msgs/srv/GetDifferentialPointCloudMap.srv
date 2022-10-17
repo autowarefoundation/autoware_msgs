@@ -6,11 +6,11 @@ AreaInfo area
 string[] cached_ids
 
 ---
+# Header
+Header header
+
 # Newly loaded PCD maps with ID
 PointCloudMapCellWithID[] new_pointcloud_with_ids
-
-# Frame ID
-string frame_id
 
 # Map IDs that the client side should remove
 string[] ids_to_remove
