@@ -1,2 +1,0 @@
-autoware_planning_msgs/VectorMapPrimitive preferred_primitive
-autoware_planning_msgs/VectorMapPrimitive[] primitives

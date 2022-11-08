@@ -5,9 +5,9 @@ find_package(ament_cmake_auto REQUIRED)
 ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/VectorMapPrimitive.msg"
-  "msg/VectorMapRoute.msg"
-  "msg/VectorMapSegment.msg"
+  "msg/LaneletPrimitive.msg"
+  "msg/LaneletRoute.msg"
+  "msg/LaneletSegment.msg"
   "srv/SetRoute.srv"
   DEPENDENCIES
     autoware_common_msgs
