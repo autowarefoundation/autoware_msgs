@@ -6,6 +6,7 @@ ament_auto_find_build_dependencies()
 
 set(msg_files
   "msg/AreaInfo.msg"
+  "msg/LaneletMapBin.msg"
   "msg/PointCloudMapCellWithID.msg"
   "srv/GetPartialPointCloudMap.srv"
   "srv/GetDifferentialPointCloudMap.srv")
