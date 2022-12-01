@@ -15,11 +15,8 @@ jobs:
       fail-fast: false
       matrix:
         rosdistro:
-          - galactic
           - humble
         include:
-          - rosdistro: galactic
-            container: ros:galactic
           - rosdistro: humble
             container: ros:humble
     steps:
