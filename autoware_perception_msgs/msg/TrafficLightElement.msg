@@ -1,0 +1,29 @@
+# constants for color
+uint8 RED = 1
+uint8 AMBER = 2
+uint8 GREEN = 3
+uint8 WHITE = 4
+
+# constants for shape
+uint8 CIRCLE = 5
+uint8 LEFT_ARROW = 6
+uint8 RIGHT_ARROW = 7
+uint8 UP_ARROW = 8
+uint8 DOWN_ARROW = 9
+uint8 DOWN_LEFT_ARROW = 10
+uint8 DOWN_RIGHT_ARROW = 11
+uint8 CROSS = 12
+
+# constants for status
+uint8 SOLID_OFF = 13
+uint8 SOLID_ON = 14
+uint8 FLASHING = 15
+
+# constants for common use
+uint8 UNKNOWN = 16
+
+# variables
+uint8 color
+uint8 shape
+uint8 status
+float32 confidence
