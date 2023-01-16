@@ -7,3 +7,5 @@
 std_msgs/Header header
 
 GnssInsOrientation orientation
+
+GnssInsOrientation test_ci
