@@ -1,3 +1,6 @@
+# constants for common use
+uint8 UNKNOWN = 0
+
 # constants for color
 uint8 RED = 1
 uint8 AMBER = 2
@@ -5,22 +8,19 @@ uint8 GREEN = 3
 uint8 WHITE = 4
 
 # constants for shape
-uint8 CIRCLE = 5
-uint8 LEFT_ARROW = 6
-uint8 RIGHT_ARROW = 7
-uint8 UP_ARROW = 8
-uint8 DOWN_ARROW = 9
-uint8 DOWN_LEFT_ARROW = 10
-uint8 DOWN_RIGHT_ARROW = 11
-uint8 CROSS = 12
+uint8 CIRCLE = 1
+uint8 LEFT_ARROW = 2
+uint8 RIGHT_ARROW = 3
+uint8 UP_ARROW = 4
+uint8 DOWN_ARROW = 5
+uint8 DOWN_LEFT_ARROW = 6
+uint8 DOWN_RIGHT_ARROW = 7
+uint8 CROSS = 8
 
 # constants for status
-uint8 SOLID_OFF = 13
-uint8 SOLID_ON = 14
-uint8 FLASHING = 15
-
-# constants for common use
-uint8 UNKNOWN = 16
+uint8 SOLID_OFF = 1
+uint8 SOLID_ON = 2
+uint8 FLASHING = 3
 
 # variables
 uint8 color
