@@ -1,2 +1,0 @@
-geometry_msgs/PoseStamped pose_stamped
-unique_identifier_msgs/UUID uuid
