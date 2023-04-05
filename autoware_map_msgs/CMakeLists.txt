@@ -9,6 +9,7 @@ set(msg_files
   "msg/LaneletMapBin.msg"
   "msg/PointCloudMapCellWithID.msg"
   "srv/GetPartialPointCloudMap.srv"
+  "srv/GetIdPointCloudMap.srv"
   "srv/GetDifferentialPointCloudMap.srv")
 
 set(msg_dependencies
