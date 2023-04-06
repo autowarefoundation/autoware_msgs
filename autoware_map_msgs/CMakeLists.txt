@@ -8,8 +8,11 @@ set(msg_files
   "msg/AreaInfo.msg"
   "msg/LaneletMapBin.msg"
   "msg/PointCloudMapCellWithID.msg"
+  "msg/PointCloudMapMetaData.msg"
+  "msg/PointCloudMapMetaDataArray.msg"
   "srv/GetPartialPointCloudMap.srv"
-  "srv/GetDifferentialPointCloudMap.srv")
+  "srv/GetDifferentialPointCloudMap.srv"
+  "srv/GetSelectedPointCloudMap.srv")
 
 set(msg_dependencies
   std_msgs

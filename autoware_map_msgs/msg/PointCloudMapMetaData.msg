@@ -1,0 +1,1 @@
+PointCloudMapCellMetaDataWithId[] pointcloud_map_metadata
