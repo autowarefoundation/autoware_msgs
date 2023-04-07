@@ -10,7 +10,7 @@ The message contains a pointcloud data attached with an ID.
 
 ## PointCloudMapCellMetaDataWithID.msg
 
-The message contains a pointcloud metacat data attached with an ID.
+The message contains a pointcloud meta data attached with an ID.
 
 ## GetPartialPointCloudMap.srv
 
