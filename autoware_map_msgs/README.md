@@ -8,6 +8,10 @@ The message represents an area information. This is intended to be used as a que
 
 The message contains a pointcloud data attached with an ID.
 
+## PointCloudMapCellMetaDataWithID.msg
+
+The message contains a pointcloud metacat data attached with an ID.
+
 ## GetPartialPointCloudMap.srv
 
 Given an area query (`AreaInfo`), the response is expected to contain the PCD maps (each of which attached with unique ID) whose area overlaps with the query.
@@ -29,3 +33,9 @@ Let $X_0$ be a set of PCD map ID that the client node has, $X_1$ be a set of PCD
 ( $x \in A\backslash B \iff x \in A \wedge x \notin B$ )
 
 <img src="./media/differential_area_loading.gif" alt="drawing" width="400"/>
+
+## GetSelectedPointCloudMap.srv
+
+Given IDs query that the client node already has, the response is expected to contain the PCD maps (each of which attached with unique ID).
+
+<img src="./media/sequential_area_loading.gif" alt="drawing" width="400"/>
