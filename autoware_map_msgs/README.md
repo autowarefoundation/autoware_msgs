@@ -37,5 +37,3 @@ Let $X_0$ be a set of PCD map ID that the client node has, $X_1$ be a set of PCD
 ## GetSelectedPointCloudMap.srv
 
 Given IDs query that the client node already has, the response is expected to contain the PCD maps (each of which attached with unique ID).
-
-<img src="./media/sequential_area_loading.gif" alt="drawing" width="400"/>
