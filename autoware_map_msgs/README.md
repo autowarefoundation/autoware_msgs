@@ -10,7 +10,7 @@ The message contains a pointcloud data attached with an ID.
 
 ## PointCloudMapCellMetaDataWithID.msg
 
-The message contains a pointcloud meta data attached with an ID. This is intended to be used as a query for selected PCD map loading (see `GetSelectedPointCloudMap.srv` section).
+The message contains a pointcloud meta data attached with an ID. These IDs are intended to be used as a query for selected PCD map loading (see `GetSelectedPointCloudMap.srv` section).
 
 ## GetPartialPointCloudMap.srv
 
