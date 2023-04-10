@@ -1,4 +1,4 @@
 # Header
 std_msgs/Header header
 
-PointCloudMapCellMetaDataWithID[] pointcloud_map_metadata
+PointCloudMapCellMetaDataWithID[] metadata_list
