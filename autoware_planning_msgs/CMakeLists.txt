@@ -9,9 +9,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/LaneletRoute.msg"
   "msg/LaneletSegment.msg"
   "msg/PoseWithUuidStamped.msg"
-  "srv/SetPoseWithUuidStamped.srv"
   DEPENDENCIES
-    autoware_common_msgs
     geometry_msgs
     std_msgs
     unique_identifier_msgs

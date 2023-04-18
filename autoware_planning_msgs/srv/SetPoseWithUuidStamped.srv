@@ -1,4 +1,0 @@
-autoware_planning_msgs/PoseWithUuidStamped data
-bool allow_modification
----
-autoware_common_msgs/ResponseStatus status

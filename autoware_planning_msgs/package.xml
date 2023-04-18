@@ -11,7 +11,6 @@
 
   <build_depend>rosidl_default_generators</build_depend>
 
-  <depend>autoware_common_msgs</depend>
   <depend>geometry_msgs</depend>
   <depend>std_msgs</depend>
   <depend>unique_identifier_msgs</depend>
