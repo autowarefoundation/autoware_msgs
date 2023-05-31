@@ -3,4 +3,3 @@ std_msgs/Header header
 autoware_planning_msgs/TrajectoryPoint start_point
 autoware_planning_msgs/TrajectoryPoint goal_point
 autoware_mapping_msgs/MapPrimitive[100] primitives
-

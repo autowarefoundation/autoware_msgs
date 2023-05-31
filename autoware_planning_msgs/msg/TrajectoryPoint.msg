@@ -6,4 +6,3 @@ float acceleration_mps2
 float heading_rate_rps
 float front_wheel_angle_rad
 float rear_wheel_angle_rad
-
