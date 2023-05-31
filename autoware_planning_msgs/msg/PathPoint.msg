@@ -1,0 +1,5 @@
+geometry_msgs/Pose pose
+float longitudinal_velocity_mps
+float lateral_velocity_mps
+float heading_rate_rps
+bool is_final
