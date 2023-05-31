@@ -14,7 +14,6 @@
   <depend>geometry_msgs</depend>
   <depend>std_msgs</depend>
   <depend>unique_identifier_msgs</depend>
-
   <depend>autoware_mapping_msgs</depend>
   <depend>nav_msgs</depend>
   <depend>builtin_interfaces</depend>
