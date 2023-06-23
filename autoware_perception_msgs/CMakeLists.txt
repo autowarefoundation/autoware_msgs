@@ -11,7 +11,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TrafficSignal.msg"
   "msg/TrafficSignalArray.msg"
   DEPENDENCIES
-    builtin_interfaces
+    std_msgs
 )
 
 ament_auto_package()
