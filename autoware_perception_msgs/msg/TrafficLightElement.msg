@@ -12,10 +12,12 @@ uint8 CIRCLE = 1
 uint8 LEFT_ARROW = 2
 uint8 RIGHT_ARROW = 3
 uint8 UP_ARROW = 4
-uint8 DOWN_ARROW = 5
-uint8 DOWN_LEFT_ARROW = 6
-uint8 DOWN_RIGHT_ARROW = 7
-uint8 CROSS = 8
+uint8 UP_LEFT_ARROW=5
+uint8 UP_RIGHT_ARROW=6
+uint8 DOWN_ARROW = 7
+uint8 DOWN_LEFT_ARROW = 8
+uint8 DOWN_RIGHT_ARROW = 9
+uint8 CROSS = 10
 
 # constants for status
 uint8 SOLID_OFF = 1
