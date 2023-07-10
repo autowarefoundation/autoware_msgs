@@ -14,6 +14,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TrafficLight.msg"
   "msg/TrafficLightArray.msg"
   "msg/TrafficLightElement.msg"
+  "msg/TrafficSignalElement.msg"
   "msg/TrafficSignal.msg"
   "msg/TrafficSignalArray.msg"
 
