@@ -9,8 +9,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/LaneletRoute.msg"
   "msg/LaneletSegment.msg"
   "msg/PoseWithUuidStamped.msg"
-  "msg/HADMapRoute.msg"
-  "msg/Route.msg"
   "msg/Trajectory.msg"
   "msg/TrajectoryPoint.msg"
   "msg/Path.msg"
@@ -21,7 +19,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
     geometry_msgs
     std_msgs
     unique_identifier_msgs
-    autoware_mapping_msgs
     nav_msgs
     builtin_interfaces
   ADD_LINTER_TESTS
