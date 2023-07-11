@@ -10,7 +10,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/LaneletSegment.msg"
   "msg/PoseWithUuidStamped.msg"
   "msg/HADMapRoute.msg"
-  "msg/OrderMovement.msg"
   "msg/Route.msg"
   "msg/Trajectory.msg"
   "msg/TrajectoryPoint.msg"
