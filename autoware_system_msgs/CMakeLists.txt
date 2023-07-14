@@ -5,7 +5,8 @@ find_package(ament_cmake_auto REQUIRED)
 ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "srv/GetVersion.srv"
+  "srv/GetVersionAutoware.srv"
+  "srv/GetVersionComponentInterface.srv"
 )
 
 ament_auto_package()

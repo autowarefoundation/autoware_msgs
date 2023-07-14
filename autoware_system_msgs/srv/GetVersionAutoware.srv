@@ -1,0 +1,4 @@
+---
+uint16 year # year of release
+uint16 month # month of release
+uint16 micro # increments for bug fixes or patches
