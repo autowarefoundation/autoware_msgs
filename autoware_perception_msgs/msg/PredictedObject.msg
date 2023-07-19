@@ -1,0 +1,4 @@
+unique_identifier_msgs/UUID id
+ObjectClassification classification
+PredictedObjectKinematics kinematics
+Shape shape
