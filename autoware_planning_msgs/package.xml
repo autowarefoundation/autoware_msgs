@@ -11,11 +11,11 @@
 
   <build_depend>rosidl_default_generators</build_depend>
 
+  <depend>builtin_interfaces</depend>
   <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
   <depend>std_msgs</depend>
   <depend>unique_identifier_msgs</depend>
-  <depend>nav_msgs</depend>
-  <depend>builtin_interfaces</depend>
 
   <exec_depend>rosidl_default_runtime</exec_depend>
 
