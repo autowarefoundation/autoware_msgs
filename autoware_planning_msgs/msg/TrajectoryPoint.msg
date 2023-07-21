@@ -1,8 +1,8 @@
 builtin_interfaces/Duration time_from_start
 geometry_msgs/Pose pose
-float longitudinal_velocity_mps
-float lateral_velocity_mps
-float acceleration_mps2
-float heading_rate_rps
-float front_wheel_angle_rad
-float rear_wheel_angle_rad
+float32 longitudinal_velocity_mps
+float32 lateral_velocity_mps
+float32 acceleration_mps2
+float32 heading_rate_rps
+float32 front_wheel_angle_rad
+float32 rear_wheel_angle_rad

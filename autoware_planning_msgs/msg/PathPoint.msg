@@ -1,5 +1,5 @@
 geometry_msgs/Pose pose
-float longitudinal_velocity_mps
-float lateral_velocity_mps
-float heading_rate_rps
+float32 longitudinal_velocity_mps
+float32 lateral_velocity_mps
+float32 heading_rate_rps
 bool is_final
