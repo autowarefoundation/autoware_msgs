@@ -5,13 +5,21 @@ find_package(ament_cmake_auto REQUIRED)
 ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/TrafficLight.msg"
-  "msg/TrafficLightArray.msg"
-  "msg/TrafficLightElement.msg"
+  "msg/ObjectClassification.msg"
+  "msg/PredictedObject.msg"
+  "msg/PredictedObjectKinematics.msg"
+  "msg/PredictedObjects.msg"
+  "msg/PredictedPath.msg"
+  "msg/Shape.msg"
+  "msg/TrafficSignalElement.msg"
   "msg/TrafficSignal.msg"
   "msg/TrafficSignalArray.msg"
+
   DEPENDENCIES
+    std_msgs
+    geometry_msgs
     builtin_interfaces
+    unique_identifier_msgs
 )
 
 ament_auto_package()
