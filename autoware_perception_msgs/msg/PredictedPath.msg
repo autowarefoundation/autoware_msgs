@@ -1,3 +1,3 @@
-geometry_msgs/Pose[100] path
+geometry_msgs/Pose[] path
 builtin_interfaces/Duration time_step
 float32 confidence
