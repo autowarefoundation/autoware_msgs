@@ -36,6 +36,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
     "msg/WheelEncoder.msg"
     "msg/WipersCommand.msg"
     "msg/WipersReport.msg"
+    "srv/ControlModeCommand.srv"
   DEPENDENCIES
     "autoware_planning_msgs"
     "builtin_interfaces"
