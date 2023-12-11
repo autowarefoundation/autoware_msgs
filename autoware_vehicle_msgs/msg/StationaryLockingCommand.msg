@@ -1,2 +1,0 @@
-builtin_interfaces/Time stamp
-bool avoid_stationary_locking
