@@ -1,0 +1,51 @@
+# All rights reserved.
+cmake_minimum_required(VERSION 3.5)
+
+### Export headers
+project(autoware_vehicle_msgs)
+
+# Generate messages
+find_package(ament_cmake_auto REQUIRED)
+ament_auto_find_build_dependencies()
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+    "msg/ControlModeCommand.msg"
+    "msg/ControlModeReport.msg"
+    "msg/Engage.msg"
+    "msg/GearCommand.msg"
+    "msg/GearReport.msg"
+    "msg/HandBrakeCommand.msg"
+    "msg/HandBrakeReport.msg"
+    "msg/HazardLightsCommand.msg"
+    "msg/HazardLightsReport.msg"
+    "msg/HeadlightsCommand.msg"
+    "msg/HeadlightsReport.msg"
+    "msg/HornCommand.msg"
+    "msg/HornReport.msg"
+    "msg/RawControlCommand.msg"
+    "msg/StationaryLockingCommand.msg"
+    "msg/SteeringReport.msg"
+    "msg/TurnIndicatorsCommand.msg"
+    "msg/TurnIndicatorsReport.msg"
+    "msg/VehicleControlCommand.msg"
+    "msg/VehicleKinematicState.msg"
+    "msg/VehicleOdometry.msg"
+    "msg/VehicleStateCommand.msg"
+    "msg/VehicleStateReport.msg"
+    "msg/VelocityReport.msg"
+    "msg/WheelEncoder.msg"
+    "msg/WipersCommand.msg"
+    "msg/WipersReport.msg"
+  DEPENDENCIES
+    "autoware_planning_msgs"
+    "builtin_interfaces"
+    "std_msgs"
+  ADD_LINTER_TESTS
+)
+
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  ament_lint_auto_find_test_dependencies()
+endif()
+
+ament_auto_package()
