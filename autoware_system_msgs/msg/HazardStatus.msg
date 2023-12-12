@@ -2,7 +2,7 @@ uint8 NO_FAULT = 0
 uint8 SAFE_FAULT = 1
 uint8 LATENT_FAULT = 2
 uint8 SINGLE_POINT_FAULT = 3
-uint8 level;
+uint8 level
 boolean emergency
 boolean emergency_holding
 diagnostic_msgs/DiagnosticStatus[] diag_no_fault
