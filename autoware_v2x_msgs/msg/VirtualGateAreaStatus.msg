@@ -7,7 +7,7 @@ uint16 RELEASED = 3
 builtin_interfaces/Time stamp
 uint16   status
 uint16   sequence  # Used to check correspondence with commands.
-string   type      # Used to select destination or driver.
+string   type      # Used to select driver.
 string   id        # Target area ID.
 string[] gates     # Entry and exit gate ID.
 
