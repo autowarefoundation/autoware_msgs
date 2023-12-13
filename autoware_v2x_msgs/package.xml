@@ -13,7 +13,6 @@
 
   <depend>builtin_interfaces</depend>
   <depend>geometry_msgs</depend>
-  <depend>unique_identifier_msgs</depend>
 
   <exec_depend>rosidl_default_runtime</exec_depend>
 

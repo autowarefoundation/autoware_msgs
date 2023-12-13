@@ -1,2 +1,1 @@
-builtin_interfaces/Time stamp
 autoware_v2x_msgs/VirtualGateAreaStatus[] areas

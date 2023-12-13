@@ -13,7 +13,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   DEPENDENCIES
     builtin_interfaces
     geometry_msgs
-    unique_identifier_msgs
 )
 
 if(BUILD_TESTING)

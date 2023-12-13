@@ -3,13 +3,13 @@ uint16 RESERVED = 1
 uint16 ACQUIRED = 2
 uint16 RELEASED = 3
 
-uint16   status
-uint16   sequence
-string   type
-string   id
-string[] gates
-
-builtin_interfaces/Time[<=1] expected_time_arrival
-
+# variables for lock
 builtin_interfaces/Time stamp
-unique_identifier_msgs/UUID vehicle
+uint16   status
+uint16   sequence  # Used to check correspondence with commands.
+string   type      # Used to select destination or driver.
+string   id        # Target area ID.
+string[] gates     # Entry and exit gate ID.
+
+# variables for scheduling
+builtin_interfaces/Time[<=1] expected_time_arrival
