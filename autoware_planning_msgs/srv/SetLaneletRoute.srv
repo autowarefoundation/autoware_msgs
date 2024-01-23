@@ -1,0 +1,11 @@
+std_msgs/Header header
+geometry_msgs/Pose goal_pose
+autoware_planning_msgs/LaneletSegment[] segments
+unique_identifier_msgs/UUID uuid
+bool allow_modification
+---
+uint16 ERROR_INVALID_STATE = 1
+uint16 ERROR_PLANNER_UNREADY = 2
+uint16 ERROR_PLANNER_FAILED = 3
+uint16 ERROR_REROUTE_FAILED = 4
+autoware_common_msgs/ResponseStatus status

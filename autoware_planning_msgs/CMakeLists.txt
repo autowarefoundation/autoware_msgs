@@ -8,19 +8,23 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/LaneletPrimitive.msg"
   "msg/LaneletRoute.msg"
   "msg/LaneletSegment.msg"
-  "msg/PoseWithUuidStamped.msg"
-  "msg/Trajectory.msg"
-  "msg/TrajectoryPoint.msg"
   "msg/Path.msg"
   "msg/PathPoint.msg"
-  "msg/PathWithLaneId.msg"
   "msg/PathPointWithLaneId.msg"
+  "msg/PathWithLaneId.msg"
+  "msg/PoseWithUuidStamped.msg"
+  "msg/RouteState.msg"
+  "msg/Trajectory.msg"
+  "msg/TrajectoryPoint.msg"
+  "srv/ClearRoute.srv"
+  "srv/SetLaneletRoute.srv"
+  "srv/SetWaypointRoute.srv"
   DEPENDENCIES
+    autoware_common_msgs
+    builtin_interfaces
     geometry_msgs
     std_msgs
     unique_identifier_msgs
-    nav_msgs
-    builtin_interfaces
   ADD_LINTER_TESTS
 )
 
