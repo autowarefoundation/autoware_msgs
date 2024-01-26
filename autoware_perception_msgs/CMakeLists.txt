@@ -5,12 +5,18 @@ find_package(ament_cmake_auto REQUIRED)
 ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/DetectedObject.msg"
+  "msg/DetectedObjectKinematics.msg"
+  "msg/DetectedObjects.msg"
   "msg/ObjectClassification.msg"
   "msg/PredictedObject.msg"
   "msg/PredictedObjectKinematics.msg"
   "msg/PredictedObjects.msg"
   "msg/PredictedPath.msg"
   "msg/Shape.msg"
+  "msg/TrackedObject.msg"
+  "msg/TrackedObjectKinematics.msg"
+  "msg/TrackedObjects.msg"
   "msg/TrafficSignalElement.msg"
   "msg/TrafficSignal.msg"
   "msg/TrafficSignalArray.msg"
