@@ -1,4 +1,4 @@
-string[] osm_file_ids
+int32[] osm_file_ids
 
 ---
 # Header
