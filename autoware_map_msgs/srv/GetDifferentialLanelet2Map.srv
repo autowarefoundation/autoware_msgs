@@ -1,0 +1,7 @@
+string[] osm_file_ids
+
+---
+# Header
+std_msgs/Header header
+
+autoware_auto_mapping_msgs/HADMapBin differential_map
