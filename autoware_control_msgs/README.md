@@ -2,7 +2,7 @@
 
 ## Design
 
-Vehicle dimensions and axes: <https://autowarefoundation.github.io/autoware-documentation/main/design/autoware-interfaces/components/vehicle-dimensions/>
+Vehicle dimensions and axes: <https://autowarefoundation.github.io/autoware-documentation/v1.0/design/autoware-interfaces/components/vehicle-dimensions/>
 
 ### Lateral.msg
 
