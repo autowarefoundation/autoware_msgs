@@ -1,4 +1,4 @@
-# Pointcloud metadata with ID
+# Lanelet metadata with ID
 
 int32 tile_id
 LaneletMapTileMetaData metadata
