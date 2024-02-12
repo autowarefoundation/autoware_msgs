@@ -17,9 +17,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TrackedObject.msg"
   "msg/TrackedObjectKinematics.msg"
   "msg/TrackedObjects.msg"
-  "msg/TrafficSignalElement.msg"
-  "msg/TrafficSignal.msg"
-  "msg/TrafficSignalArray.msg"
+  "msg/TrafficLightElement.msg"
+  "msg/TrafficLightGroup.msg"
+  "msg/TrafficLightGroupArray.msg"
 
   DEPENDENCIES
     std_msgs
