@@ -1,4 +1,4 @@
 # Header
 std_msgs/Header header
 
-LaneletMapTileMetaDataWithID[] metadata_list
+LaneletMapTileMetaData[] metadata_list
