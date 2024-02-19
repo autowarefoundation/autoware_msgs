@@ -8,7 +8,6 @@ set(msg_files
   "msg/AreaInfo.msg"
   "msg/LaneletMapBin.msg"
   "msg/LaneletMapMetaData.msg"
-  "msg/LaneletMapTileMetaDataWithID.msg"
   "msg/LaneletMapTileMetaData.msg"
   "msg/PointCloudMapCellWithID.msg"
   "msg/PointCloudMapCellMetaData.msg"
