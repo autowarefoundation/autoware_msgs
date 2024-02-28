@@ -1,6 +1,7 @@
 # Metadata of lanelet map tile
 
 int32 tile_id
-string mgrs_code
-float64 origin_lat
-float64 origin_lon
+float64 min_x
+float64 max_x
+float64 min_y
+float64 max_y
