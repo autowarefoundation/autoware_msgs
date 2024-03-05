@@ -6,4 +6,4 @@ int32[] vector_map_file_ids
 std_msgs/Header header
 
 # Newly loaded Lanelet map
-autoware_auto_mapping_msgs/HADMapBin differential_map
+autoware_map_msgs/LaneletMapBin differential_map
