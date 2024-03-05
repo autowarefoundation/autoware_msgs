@@ -21,8 +21,7 @@ set(msg_files
 set(msg_dependencies
   std_msgs
   geometry_msgs
-  sensor_msgs
-  autoware_auto_mapping_msgs)
+  sensor_msgs)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
