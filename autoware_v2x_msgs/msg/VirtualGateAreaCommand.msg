@@ -5,7 +5,6 @@ uint16 RELEASE = 2
 # variables for lock
 uint16   command
 uint16   sequence  # Used to check correspondence with commands.
-string   type      # Used to select driver.
 string   id        # Target area ID.
 string[] gates     # Entry and exit gate ID.
 
