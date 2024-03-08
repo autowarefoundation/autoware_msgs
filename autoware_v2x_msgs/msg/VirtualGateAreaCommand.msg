@@ -6,7 +6,7 @@ uint16 RELEASE = 2
 uint16   command
 uint16   sequence_id  # Used to check correspondence with status messages.
 string   area_id        # Target area ID.
-string[] gates     # Entry and exit gate ID.
+string[] gate_ids     # Entry and exit gate ID.
 
 # variables for scheduling
 builtin_interfaces/Time[<=1] expected_time_arrival
