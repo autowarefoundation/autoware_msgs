@@ -9,7 +9,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/VirtualGateAreaStatus.msg"
   "msg/VirtualGateCommand.msg"
   "msg/VirtualGateStatus.msg"
-  "msg/VirtualGateVehicleInfo.msg"
   DEPENDENCIES
     builtin_interfaces
     geometry_msgs

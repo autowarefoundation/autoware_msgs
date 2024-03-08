@@ -1,3 +1,2 @@
 builtin_interfaces/Time stamp
 autoware_v2x_msgs/VirtualGateAreaCommand[] areas
-autoware_v2x_msgs/VirtualGateVehicleInfo vehicle
