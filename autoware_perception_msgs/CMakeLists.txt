@@ -11,9 +11,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PredictedObjects.msg"
   "msg/PredictedPath.msg"
   "msg/Shape.msg"
-  "msg/TrafficSignalElement.msg"
-  "msg/TrafficSignal.msg"
-  "msg/TrafficSignalArray.msg"
+  "msg/TrafficLightElement.msg"
+  "msg/TrafficLight.msg"
+  "msg/TrafficLightArray.msg"
 
   DEPENDENCIES
     std_msgs
