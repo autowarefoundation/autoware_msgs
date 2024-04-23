@@ -15,7 +15,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PathPoint.msg"
   "msg/PathWithLaneId.msg"
   "msg/PathPointWithLaneId.msg"
-  "msg/RemainingDistanceETA.msg"
+  "msg/MissionRemainingDistanceTime.msg"
   DEPENDENCIES
     geometry_msgs
     std_msgs
