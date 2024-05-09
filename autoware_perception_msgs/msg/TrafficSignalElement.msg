@@ -1,3 +1,4 @@
+# TODO(youtalk): Remove this after migration to TrafficLight
 # constants for common use
 uint8 UNKNOWN = 0
 
