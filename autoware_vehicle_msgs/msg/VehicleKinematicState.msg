@@ -1,3 +1,0 @@
-std_msgs/Header header
-autoware_planning_msgs/TrajectoryPoint state
-geometry_msgs/Transform delta
