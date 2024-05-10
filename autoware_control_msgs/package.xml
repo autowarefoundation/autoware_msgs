@@ -6,6 +6,7 @@
   <description>Autoware control messages package.</description>
 
   <maintainer email="mfc@leodrive.ai">M. Fatih Cırıt</maintainer>
+  <maintainer email="yutaka.kondo@tier4.jp">Yutaka Kondo</maintainer>
 
   <license>Apache License 2.0</license>
 

@@ -6,6 +6,7 @@ ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ResponseStatus.msg"
+  ADD_LINTER_TESTS
 )
 
 ament_auto_package()

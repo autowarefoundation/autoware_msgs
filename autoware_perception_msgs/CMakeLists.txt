@@ -30,6 +30,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
     geometry_msgs
     builtin_interfaces
     unique_identifier_msgs
+
+  ADD_LINTER_TESTS
 )
 
 ament_auto_package()

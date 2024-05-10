@@ -5,6 +5,7 @@
   <version>1.0.0</version>
   <description>Autoware sensing messages package.</description>
 
+  <maintainer email="yutaka.kondo@tier4.jp">Yutaka Kondo</maintainer>
   <maintainer email="mfc@leodrive.ai">M. Fatih Cırıt</maintainer>
 
   <license>Apache License 2.0</license>
