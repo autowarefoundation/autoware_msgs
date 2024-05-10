@@ -2,8 +2,8 @@
 Changelog for package autoware_map_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.1.0 (2024-05-10)
+------------------
 * chore: update `package.xml` and fix `CMakeLists.txt` (`#91 <https://github.com/youtalk/autoware_msgs/issues/91>`_)
   update package.xml and fix cmakefiles
 * feat(autoware_map_msgs): support cylindrical AreaInfo (`#64 <https://github.com/youtalk/autoware_msgs/issues/64>`_)
