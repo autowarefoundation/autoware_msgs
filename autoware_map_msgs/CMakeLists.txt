@@ -16,7 +16,7 @@ set(msg_files
   "srv/GetPartialPointCloudMap.srv"
   "srv/GetDifferentialPointCloudMap.srv"
   "srv/GetSelectedPointCloudMap.srv"
-  "srv/GetDifferentialLanelet2Map.srv")
+  "srv/GetSelectedLanelet2Map.srv")
 
 set(msg_dependencies
   std_msgs
