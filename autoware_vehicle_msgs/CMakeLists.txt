@@ -9,7 +9,6 @@ find_package(ament_cmake_auto REQUIRED)
 ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-    "msg/ControlModeCommand.msg"
     "msg/ControlModeReport.msg"
     "msg/Engage.msg"
     "msg/GearCommand.msg"
@@ -19,9 +18,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
     "msg/SteeringReport.msg"
     "msg/TurnIndicatorsCommand.msg"
     "msg/TurnIndicatorsReport.msg"
-    "msg/VehicleControlCommand.msg"
-    "msg/VehicleKinematicState.msg"
-    "msg/VehicleOdometry.msg"
     "msg/VelocityReport.msg"
     "srv/ControlModeCommand.srv"
   DEPENDENCIES
