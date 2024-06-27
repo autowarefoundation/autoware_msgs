@@ -1,3 +1,3 @@
 RoadSegments road_segments
 
-# More messages will be added here later (sign detection, HD maps, ...)
+# More data fields will be added here later (sign detection, HD maps, ...)

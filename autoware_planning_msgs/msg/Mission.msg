@@ -6,4 +6,4 @@ uint8 LANE_CHANGE_RIGHT=2
 uint8 TAKE_NEXT_EXIT_LEFT=3
 uint8 TAKE_NEXT_EXIT_RIGHT=4
 
-float32 deadline
+float32 deadline # Spatial deadline parameter (meters), the mission should be completed after this number of meters
