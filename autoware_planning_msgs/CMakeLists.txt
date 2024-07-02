@@ -13,6 +13,14 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TrajectoryPoint.msg"
   "msg/Path.msg"
   "msg/PathPoint.msg"
+  "msg/DrivingCorridor.msg"
+  "msg/MissionLanesStamped.msg"
+  "msg/Mission.msg"
+  "msg/VisualizationDistance.msg"
+  "msg/Segment.msg"
+  "msg/RoadSegments.msg"
+  "msg/Linestring.msg"
+  "msg/LocalMap.msg"
   DEPENDENCIES
     geometry_msgs
     std_msgs
