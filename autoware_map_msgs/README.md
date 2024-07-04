@@ -4,13 +4,13 @@
 
 The message represents an area information. This is intended to be used as a query for partial / differential map loading (see `GetPartialPointCloudMap.srv` and `GetDifferentialPointCloudMap.srv` section).
 
-## PointCloudMapCellWithID.msg
-
-The message contains a pointcloud data attached with an ID.
-
 ## PointCloudMapCellMetaData.msg
 
-The message contains a pointcloud meta data attached with an ID. These IDs are intended to be used as a query for selected PCD map loading (see `GetSelectedPointCloudMap.srv` section).
+The message contains a pointcloud meta data. These IDs are intended to be used as a query for selected PCD map loading (see `GetSelectedPointCloudMap.srv` section).
+
+## PointCloudMapCellWithMetaData.msg
+
+The message contains a pointcloud data attached with a metadata.
 
 ## GetPartialPointCloudMap.srv
 
