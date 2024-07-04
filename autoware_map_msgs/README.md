@@ -8,7 +8,7 @@ The message represents an area information. This is intended to be used as a que
 
 The message contains a pointcloud data attached with an ID.
 
-## PointCloudMapCellMetaDataWithID.msg
+## PointCloudMapCellMetaData.msg
 
 The message contains a pointcloud meta data attached with an ID. These IDs are intended to be used as a query for selected PCD map loading (see `GetSelectedPointCloudMap.srv` section).
 
@@ -36,4 +36,4 @@ Let $X_0$ be a set of PCD map ID that the client node has, $X_1$ be a set of PCD
 
 ## GetSelectedPointCloudMap.srv
 
-Given IDs query, the response is expected to contain the PCD maps (each of which attached with unique ID) specified by query. Before using this interface, the client is expected to receive the `PointCloudMapCellMetaDataWithID.msg` metadata to retrieve information about IDs.
+Given IDs query, the response is expected to contain the PCD maps (each of which attached with unique ID) specified by query. Before using this interface, the client is expected to receive the `PointCloudMapCellMetaData.msg` metadata to retrieve information about IDs.
