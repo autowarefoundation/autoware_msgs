@@ -1,6 +1,6 @@
-# Metadata of lanelet map tile
+# Metadata of lanelet map cell
 
-int32 tile_id
+int32 cell_id
 float64 min_x
 float64 max_x
 float64 min_y
