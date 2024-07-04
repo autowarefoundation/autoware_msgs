@@ -1,5 +1,5 @@
 # Osm file ids which are selected to be loaded
-int32[] vector_map_file_ids
+string[] cell_ids
 
 ---
 # Header
