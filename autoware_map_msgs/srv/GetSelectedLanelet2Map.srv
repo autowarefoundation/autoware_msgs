@@ -6,4 +6,4 @@ string[] cell_ids
 std_msgs/Header header
 
 # Newly loaded Lanelet map
-autoware_map_msgs/LaneletMapBin differential_map
+autoware_map_msgs/LaneletMapBin lanelet2_cells
