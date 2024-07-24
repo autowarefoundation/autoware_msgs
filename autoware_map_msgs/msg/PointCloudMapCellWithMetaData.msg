@@ -1,5 +1,4 @@
-# Pointcloud data with ID
+# Pointcloud with metadata
 
-string cell_id
 sensor_msgs/PointCloud2 pointcloud
 PointCloudMapCellMetaData metadata
