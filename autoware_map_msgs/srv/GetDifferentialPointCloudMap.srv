@@ -10,7 +10,7 @@ string[] cached_ids
 std_msgs/Header header
 
 # Newly loaded PCD maps with ID
-PointCloudMapCellWithMetaData[] new_pointcloud_cells
+PointCloudMapCellWithID[] new_pointcloud_with_ids
 
 # Map IDs that the client side should remove
 string[] ids_to_remove

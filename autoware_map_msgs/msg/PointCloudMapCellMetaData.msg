@@ -1,6 +1,5 @@
 # Metadata of pointcloud map cell
 
-string cell_id
 float32 min_x
 float32 min_y
 float32 max_x
