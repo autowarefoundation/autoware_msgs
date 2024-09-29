@@ -7,13 +7,16 @@ ament_auto_find_build_dependencies()
 set(msg_files
   "msg/AreaInfo.msg"
   "msg/LaneletMapBin.msg"
+  "msg/LaneletMapMetaData.msg"
+  "msg/LaneletMapCellMetaData.msg"
   "msg/PointCloudMapCellWithID.msg"
   "msg/PointCloudMapCellMetaData.msg"
   "msg/PointCloudMapCellMetaDataWithID.msg"
   "msg/PointCloudMapMetaData.msg"
   "srv/GetPartialPointCloudMap.srv"
   "srv/GetDifferentialPointCloudMap.srv"
-  "srv/GetSelectedPointCloudMap.srv")
+  "srv/GetSelectedPointCloudMap.srv"
+  "srv/GetSelectedLanelet2Map.srv")
 
 set(msg_dependencies
   std_msgs
