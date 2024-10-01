@@ -2,6 +2,11 @@
 Changelog for package autoware_planning_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* docs(TrajectoryPoint):  add comment for acceleration_mps2 to clarify its usage (`#92 <https://github.com/autowarefoundation/autoware_msgs/issues/92>`_)
+* Contributors: Ahmed Ebrahim
+
 1.1.0 (2024-05-10)
 ------------------
 * chore: update `package.xml` and fix `CMakeLists.txt` (`#91 <https://github.com/youtalk/autoware_msgs/issues/91>`_)
