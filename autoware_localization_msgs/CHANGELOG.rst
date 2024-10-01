@@ -2,6 +2,9 @@
 Changelog for package autoware_localization_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.2.0 (2024-10-01)
+------------------
+
 1.1.0 (2024-05-10)
 ------------------
 * chore: update `package.xml` and fix `CMakeLists.txt` (`#91 <https://github.com/youtalk/autoware_msgs/issues/91>`_)

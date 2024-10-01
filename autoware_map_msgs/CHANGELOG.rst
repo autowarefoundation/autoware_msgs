@@ -2,6 +2,11 @@
 Changelog for package autoware_map_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.2.0 (2024-10-01)
+------------------
+* feat(autoware_map_msgs): add msg and srv files releated with dynamic lanelet loading (`#81 <https://github.com/autowarefoundation/autoware_msgs/issues/81>`_)
+* Contributors: Barış Zeren, Ryohsuke Mitsudome, Yamato Ando
+
 1.1.0 (2024-05-10)
 ------------------
 * chore: update `package.xml` and fix `CMakeLists.txt` (`#91 <https://github.com/youtalk/autoware_msgs/issues/91>`_)
