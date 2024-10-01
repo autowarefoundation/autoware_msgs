@@ -5,10 +5,6 @@ Changelog for package autoware_map_msgs
 1.2.0 (2024-10-01)
 ------------------
 * feat(autoware_map_msgs): add msg and srv files releated with dynamic lanelet loading (`#81 <https://github.com/autowarefoundation/autoware_msgs/issues/81>`_)
-* revert: revert "refactor(autoware_map_msgs): modify pcd metadata msg (`#96 <https://github.com/autowarefoundation/autoware_msgs/issues/96>`_)" (`#98 <https://github.com/autowarefoundation/autoware_msgs/issues/98>`_)
-  revert: Revert "refactor(autoware_map_msgs): modify pcd metadata msg (`#96 <https://github.com/autowarefoundation/autoware_msgs/issues/96>`_)"
-  This reverts commit 06ceea7bdea224419a49ffacef3640ca9c0cf59a.
-* refactor(autoware_map_msgs): modify pcd metadata msg (`#96 <https://github.com/autowarefoundation/autoware_msgs/issues/96>`_)
 * Contributors: Barış Zeren, Ryohsuke Mitsudome, Yamato Ando
 
 1.1.0 (2024-05-10)
