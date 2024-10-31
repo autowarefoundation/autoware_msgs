@@ -12,6 +12,11 @@ The message contains a pointcloud data attached with an ID.
 
 The message contains a pointcloud meta data attached with an ID. These IDs are intended to be used as a query for selected PCD map loading (see `GetSelectedPointCloudMap.srv` section).
 
+## MapProjectorInfo.msg
+
+The message contains the information required to project global coordinates to local coordinates used by Autoware, which includes the name of the projection method and the parameters for the projection.
+For further information, please refer to the readme of [map_projection_loader](https://github.com/autowarefoundation/autoware.universe/blob/main/map/autoware_map_projection_loader/README.md) in Autoware Universe.
+
 ## GetPartialPointCloudMap.srv
 
 Given an area query (`AreaInfo`), the response is expected to contain the PCD maps (each of which attached with unique ID) whose area overlaps with the query.
