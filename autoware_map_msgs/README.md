@@ -14,7 +14,7 @@ The message contains a pointcloud meta data attached with an ID. These IDs are i
 
 ## MapProjectorInfo.msg
 
-The message contains the information required to project global coordinates to local coodraintes used by Autoware, which includes the name of the projection method and the parameters for the projection.
+The message contains the information required to project global coordinates to local coordinates used by Autoware, which includes the name of the projection method and the parameters for the projection.
 For further information, please refer to the readme of [map_projection_loader](https://github.com/autowarefoundation/autoware.universe/blob/main/map/autoware_map_projection_loader/README.md) in Autoware Universe.
 
 ## GetPartialPointCloudMap.srv
