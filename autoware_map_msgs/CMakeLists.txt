@@ -9,6 +9,7 @@ set(msg_files
   "msg/LaneletMapBin.msg"
   "msg/LaneletMapMetaData.msg"
   "msg/LaneletMapCellMetaData.msg"
+  "msg/MapProjectorInfo.msg"
   "msg/PointCloudMapCellWithID.msg"
   "msg/PointCloudMapCellMetaData.msg"
   "msg/PointCloudMapCellMetaDataWithID.msg"
@@ -21,6 +22,7 @@ set(msg_files
 set(msg_dependencies
   std_msgs
   geometry_msgs
+  geographic_msgs
   sensor_msgs)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
