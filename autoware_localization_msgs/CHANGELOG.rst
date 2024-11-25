@@ -2,6 +2,9 @@
 Changelog for package autoware_localization_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.2.0 (2024-10-01)
 ------------------
 

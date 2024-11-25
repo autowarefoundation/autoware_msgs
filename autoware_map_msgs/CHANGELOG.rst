@@ -2,6 +2,11 @@
 Changelog for package autoware_map_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* feat(autoware_map_msgs): add MapProjectorInfo message (`#102 <https://github.com/autowarefoundation/autoware_msgs/issues/102>`_)
+* Contributors: Ryohsuke Mitsudome
+
 1.2.0 (2024-10-01)
 ------------------
 * feat(autoware_map_msgs): add msg and srv files releated with dynamic lanelet loading (`#81 <https://github.com/autowarefoundation/autoware_msgs/issues/81>`_)
