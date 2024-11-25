@@ -2,8 +2,8 @@
 Changelog for package autoware_map_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.3.0 (2024-11-25)
+------------------
 * feat(autoware_map_msgs): add MapProjectorInfo message (`#102 <https://github.com/autowarefoundation/autoware_msgs/issues/102>`_)
 * Contributors: Ryohsuke Mitsudome
 
