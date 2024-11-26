@@ -1,0 +1,12 @@
+[settings]
+os=Linux
+arch=x86_64
+compiler=gcc
+compiler.version=11.4
+compiler.libcxx=libstdc++11
+build_type=Debug
+[options]
+&:enable_test=ON
+[buildenv]
+CC=gcc
+CXX=g++
