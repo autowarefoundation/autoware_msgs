@@ -2,6 +2,9 @@
 Changelog for package autoware_planning_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.3.0 (2024-11-25)
+------------------
+
 1.2.0 (2024-10-01)
 ------------------
 * docs(TrajectoryPoint):  add comment for acceleration_mps2 to clarify its usage (`#92 <https://github.com/autowarefoundation/autoware_msgs/issues/92>`_)
