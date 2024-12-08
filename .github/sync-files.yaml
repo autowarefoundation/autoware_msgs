@@ -11,6 +11,7 @@
     - source: .github/pull_request_template.md
     - source: .github/dependabot.yaml
     - source: .github/stale.yml
+    - source: .github/workflows/comment-on-pr.yaml
     - source: .github/workflows/github-release.yaml
     - source: .github/workflows/pre-commit.yaml
     - source: .github/workflows/pre-commit-optional.yaml
