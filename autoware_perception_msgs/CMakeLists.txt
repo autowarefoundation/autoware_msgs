@@ -13,6 +13,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PredictedObjectKinematics.msg"
   "msg/PredictedObjects.msg"
   "msg/PredictedPath.msg"
+  "msg/SegmentationMask.msg"
   "msg/Shape.msg"
   "msg/TrackedObject.msg"
   "msg/TrackedObjectKinematics.msg"
@@ -27,6 +28,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 
   DEPENDENCIES
     std_msgs
+    sensor_msgs
     geometry_msgs
     builtin_interfaces
     unique_identifier_msgs
