@@ -1,6 +1,7 @@
 # Projector type
 string LOCAL = "Local"
 string LOCAL_CARTESIAN_UTM = "LocalCartesianUTM"
+string LOCAL_CARTESIAN = "LocalCartesian"
 string MGRS = "MGRS"
 string TRANSVERSE_MERCATOR = "TransverseMercator"
 string projector_type
