@@ -2,6 +2,12 @@
 Changelog for package autoware_map_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.4.0 (2025-02-25)
+------------------
+* feat(MapProjectorInfo.msg): add LocalCartesian const (`#118 <https://github.com/autowarefoundation/autoware_msgs/issues/118>`_)
+* fix(autoware_msgs): fix links to issues in CHANGELOG.rst files (`#108 <https://github.com/autowarefoundation/autoware_msgs/issues/108>`_)
+* Contributors: Esteve Fernandez, Sebastian Zęderowski
+
 1.3.0 (2024-11-25)
 ------------------
 * feat(autoware_map_msgs): add MapProjectorInfo message (`#102 <https://github.com/autowarefoundation/autoware_msgs/issues/102>`_)
