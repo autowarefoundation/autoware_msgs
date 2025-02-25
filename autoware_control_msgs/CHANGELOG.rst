@@ -2,6 +2,11 @@
 Changelog for package autoware_control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.4.0 (2025-02-25)
+------------------
+* fix(autoware_msgs): fix links to issues in CHANGELOG.rst files (`#108 <https://github.com/autowarefoundation/autoware_msgs/issues/108>`_)
+* Contributors: Esteve Fernandez
+
 1.3.0 (2024-11-25)
 ------------------
 
