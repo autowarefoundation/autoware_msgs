@@ -11,8 +11,8 @@ uint32 PEDESTRIAN = 7
 # Radar specific classes
 uint32 ANIMAL = 8
 uint32 HAZARD = 9
-uint32 OVERDRIVABLE = 10
-uint32 UNDERDRIVABLE = 11
+uint32 OVER_DRIVABLE = 10
+uint32 UNDER_DRIVABLE = 11
 
 uint32 label
 float32 probability
