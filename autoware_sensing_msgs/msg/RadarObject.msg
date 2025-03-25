@@ -19,7 +19,7 @@ uint8 movement_status
 geometry_msgs/Point position
 geometry_msgs/Vector3 velocity
 geometry_msgs/Vector3 acceleration
-geometry_msgs/Vector3 shape
+geometry_msgs/Vector3 size
 
 float32[6] position_cov
 float32[6] velocity_cov
