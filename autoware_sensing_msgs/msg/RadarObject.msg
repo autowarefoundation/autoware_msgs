@@ -24,7 +24,7 @@ geometry_msgs/Vector3 shape
 float32[6] position_cov
 float32[6] velocity_cov
 float32[6] acceleration_cov
-float32[6] shape_cov
+float32[6] size_covariance
 
 float32 orientation
 float32 orientation_std
