@@ -15,5 +15,12 @@ string vertical_datum
 string mgrs_grid
 
 # Used for some map projection types
-# altitude may not be in ellipsoid height
+# Altitude is not used, so there is no need to specify it.
+# Even if altitude is specified, it will be overwritten with 0.0.
 geographic_msgs/GeoPoint map_origin
+
+# Scale factor of the map
+# Used for TransverseMercator map (default: 0.9996)
+# In the case of LocalCartesianUTM and MGRS, it will be overwritten with 0.9996.
+# In the case of Local and LocalCartesian, it will be overwritten with 1.0.
+float32 scale_factor
