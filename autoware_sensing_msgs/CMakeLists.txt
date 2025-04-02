@@ -6,8 +6,7 @@ ament_auto_find_build_dependencies()
 
 set(msg_files
   "msg/GnssInsOrientation.msg"
-  "msg/GnssInsOrientationStamped.msg"
-)
+  "msg/GnssInsOrientationStamped.msg")
 
 set(msg_dependencies
   geometry_msgs
