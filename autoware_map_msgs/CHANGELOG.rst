@@ -2,8 +2,8 @@
 Changelog for package autoware_map_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.5.0 (2025-04-02)
+------------------
 * feat(autoware_msg_msgs): add scale factor remove altitude (`#121 <https://github.com/autowarefoundation/autoware_msgs/issues/121>`_)
   * add_scale_factor_remove_altitude
   * add newline
