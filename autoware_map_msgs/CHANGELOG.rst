@@ -2,6 +2,14 @@
 Changelog for package autoware_map_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* feat(autoware_msg_msgs): add scale factor remove altitude (`#121 <https://github.com/autowarefoundation/autoware_msgs/issues/121>`_)
+  * add_scale_factor_remove_altitude
+  * add newline
+  ---------
+* Contributors: Yamato Ando
+
 1.4.0 (2025-02-25)
 ------------------
 * feat(MapProjectorInfo.msg): add LocalCartesian const (`#118 <https://github.com/autowarefoundation/autoware_msgs/issues/118>`_)
