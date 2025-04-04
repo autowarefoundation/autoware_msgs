@@ -5,7 +5,7 @@
   <version>1.5.0</version>
   <description>Meta package for the autoware_msgs packages</description>
 
-  <maintainer email="mfc@leodrive.ai">M. Fatih Cırıt</maintainer>
+  <maintainer email="mfc@autoware.org">M. Fatih Cırıt</maintainer>
   <maintainer email="ryosuke.mitsudome@tier4.jp">Ryosuke Mitsudome</maintainer>
   <maintainer email="yutaka.kondo@tier4.jp">Yutaka Kondo</maintainer>
   <license>Apache License 2.0</license>
