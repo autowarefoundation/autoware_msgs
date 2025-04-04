@@ -2,6 +2,9 @@
 Changelog for package autoware_v2x_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.5.0 (2025-04-02)
+------------------
+
 1.4.0 (2025-02-25)
 ------------------
 * chore: sync files (`#107 <https://github.com/autowarefoundation/autoware_msgs/issues/107>`_)
