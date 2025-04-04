@@ -2,6 +2,9 @@
 Changelog for package autoware_planning_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.5.0 (2025-04-02)
+------------------
+
 1.4.0 (2025-02-25)
 ------------------
 * fix(autoware_msgs): fix links to issues in CHANGELOG.rst files (`#108 <https://github.com/autowarefoundation/autoware_msgs/issues/108>`_)
