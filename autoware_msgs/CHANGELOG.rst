@@ -2,8 +2,8 @@
 Changelog for package autoware_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.6.0 (2025-04-07)
+------------------
 * feat(autoware msgs): create metapackage (`#123 <https://github.com/autowarefoundation/autoware_msgs/issues/123>`_)
   * create autoware_msgs
   * add maintainer
