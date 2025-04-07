@@ -2,6 +2,9 @@
 Changelog for package autoware_vehicle_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.5.0 (2025-04-02)
 ------------------
 
