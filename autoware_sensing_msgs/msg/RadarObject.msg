@@ -32,4 +32,4 @@ float32 orientation_rate
 float32 orientation_rate_std
 
 float32 existence_probability
-ObjectClassification[] classifications
+RadarClassification[] classifications
