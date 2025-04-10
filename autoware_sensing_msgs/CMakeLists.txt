@@ -6,7 +6,12 @@ ament_auto_find_build_dependencies()
 
 set(msg_files
   "msg/GnssInsOrientation.msg"
-  "msg/GnssInsOrientationStamped.msg")
+  "msg/GnssInsOrientationStamped.msg"
+  "msg/RadarClassification.msg"
+  "msg/RadarFieldInfo.msg"
+  "msg/RadarInfo.msg"
+  "msg/RadarObject.msg"
+  "msg/RadarObjects.msg")
 
 set(msg_dependencies
   geometry_msgs
