@@ -19,6 +19,7 @@
     - source: .github/workflows/spell-check-daily.yaml
     - source: .github/workflows/spell-check-differential.yaml
     - source: .github/workflows/sync-files.yaml
+    - source: .github/workflows/update-codeowners-from-packages.yaml
     - source: .markdown-link-check.json
     - source: .markdownlint.yaml
     - source: .pre-commit-config.yaml
