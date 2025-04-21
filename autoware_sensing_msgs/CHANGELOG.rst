@@ -2,6 +2,13 @@
 Changelog for package autoware_sensing_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.7.0 (2025-04-21)
+------------------
+* feat(autoware_sensing_msgs): implement the proposed universal radar messages (`#120 <https://github.com/autowarefoundation/autoware_msgs/issues/120>`_)
+  Co-authored-by: Taekjin LEE <technolojin@gmail.com>
+  Co-authored-by: Mete Fatih Cırıt <xmfcx@users.noreply.github.com>
+* Contributors: Kenzo Lobos Tsunekawa
+
 1.6.0 (2025-04-07)
 ------------------
 
