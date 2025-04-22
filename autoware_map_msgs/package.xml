@@ -5,9 +5,11 @@
   <version>1.7.0</version>
   <description>Autoware map messages package.</description>
 
-  <maintainer email="koji.minoda@tier4.jp">kminoda</maintainer>
-  <maintainer email="mfc@leodrive.ai">M. Fatih Cırıt</maintainer>
+  <author email="koji.minoda@tier4.jp">Koji Minoda</author>
+
+  <maintainer email="mfc@autoware.ai">Mete Fatih Cırıt</maintainer>
   <maintainer email="yutaka.kondo@tier4.jp">Yutaka Kondo</maintainer>
+  <maintainer email="ryohsuke.mitsudome@tier4.jp">Ryohsuke Mitsudome</maintainer>
 
   <license>Apache License 2.0</license>
 

@@ -4,7 +4,9 @@
   <name>autoware_vehicle_msgs</name>
   <version>1.7.0</version>
   <description>Interfaces between core Autoware vehicle components</description>
-  <maintainer email="beginning.fan@autocore.ai">Apex.AI, Inc.</maintainer>
+  <maintainer email="beginning.fan@autocore.ai">beginning.fan</maintainer>
+  <maintainer email="mfc@autoware.ai">Mete Fatih Cırıt</maintainer>
+  <maintainer email="ryohsuke.mitsudome@tier4.jp">Ryohsuke Mitsudome</maintainer>
   <maintainer email="yutaka.kondo@tier4.jp">Yutaka Kondo</maintainer>
   <license>Apache License 2.0</license>
 

@@ -5,6 +5,8 @@
   <version>1.7.0</version>
   <description>Autoware planning messages package.</description>
   <maintainer email="isamu.takagi@tier4.jp">Takagi, Isamu</maintainer>
+  <maintainer email="mfc@autoware.ai">Mete Fatih Cırıt</maintainer>
+  <maintainer email="ryohsuke.mitsudome@tier4.jp">Ryohsuke Mitsudome</maintainer>
   <maintainer email="yutaka.kondo@tier4.jp">Yutaka Kondo</maintainer>
   <license>Apache License 2.0</license>
 
