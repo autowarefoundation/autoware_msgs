@@ -5,7 +5,7 @@
   <version>1.7.0</version>
   <description>Autoware control messages package.</description>
 
-  <maintainer email="mfc@autoware.ai">Mete Fatih Cırıt</maintainer>
+  <maintainer email="mfc@autoware.org">Mete Fatih Cırıt</maintainer>
   <maintainer email="ryohsuke.mitsudome@tier4.jp">Ryohsuke Mitsudome</maintainer>
   <maintainer email="yutaka.kondo@tier4.jp">Yutaka Kondo</maintainer>
 
