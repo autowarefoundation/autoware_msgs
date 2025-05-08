@@ -20,6 +20,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TrafficLightElement.msg"
   "msg/TrafficLightGroup.msg"
   "msg/TrafficLightGroupArray.msg"
+  "msg/FutureTrafficLightState.msg"
   # TODO(youtalk): Remove below after migration to TrafficLight
   "msg/TrafficSignalElement.msg"
   "msg/TrafficSignal.msg"
