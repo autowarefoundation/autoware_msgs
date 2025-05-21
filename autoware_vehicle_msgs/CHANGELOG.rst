@@ -2,6 +2,12 @@
 Changelog for package autoware_vehicle_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.8.0 (2025-05-21)
+------------------
+* chore: fix email domain (`#133 <https://github.com/autowarefoundation/autoware_msgs/issues/133>`_)
+* chore: update maintainers (`#132 <https://github.com/autowarefoundation/autoware_msgs/issues/132>`_)
+* Contributors: Mete Fatih Cırıt
+
 1.7.0 (2025-04-21)
 ------------------
 
