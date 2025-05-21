@@ -2,8 +2,8 @@
 Changelog for package autoware_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.8.0 (2025-05-21)
+------------------
 * feat(autoware_perception_msgs): update traffic light messages to include future states (`#134 <https://github.com/autowarefoundation/autoware_msgs/issues/134>`_)
   * feat: add autoware_perception_msgs/FutureTrafficLightState message
   * feat: update autoware_perception_msgs/TrafficLightGroup to include predictions
