@@ -13,6 +13,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PredictedObjectKinematics.msg"
   "msg/PredictedObjects.msg"
   "msg/PredictedPath.msg"
+  "msg/PredictedTrafficLightState.msg"
   "msg/Shape.msg"
   "msg/TrackedObject.msg"
   "msg/TrackedObjectKinematics.msg"
@@ -20,7 +21,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TrafficLightElement.msg"
   "msg/TrafficLightGroup.msg"
   "msg/TrafficLightGroupArray.msg"
-  "msg/PredictedTrafficLightState.msg"
   # TODO(youtalk): Remove below after migration to TrafficLight
   "msg/TrafficSignalElement.msg"
   "msg/TrafficSignal.msg"
