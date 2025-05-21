@@ -2,6 +2,12 @@
 Changelog for package autoware_sensing_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* chore: fix email domain (`#133 <https://github.com/autowarefoundation/autoware_msgs/issues/133>`_)
+* chore: update maintainers (`#132 <https://github.com/autowarefoundation/autoware_msgs/issues/132>`_)
+* Contributors: Mete Fatih Cırıt
+
 1.7.0 (2025-04-21)
 ------------------
 * feat(autoware_sensing_msgs): implement the proposed universal radar messages (`#120 <https://github.com/autowarefoundation/autoware_msgs/issues/120>`_)

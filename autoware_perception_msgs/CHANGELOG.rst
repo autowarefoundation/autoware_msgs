@@ -2,6 +2,20 @@
 Changelog for package autoware_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* feat(autoware_perception_msgs): update traffic light messages to include future states (`#134 <https://github.com/autowarefoundation/autoware_msgs/issues/134>`_)
+  * feat: add autoware_perception_msgs/FutureTrafficLightState message
+  * feat: update autoware_perception_msgs/TrafficLightGroup to include predictions
+  * fix: add inline comments to autoware_perception_msgs/FutureTrafficLightState message
+  * fix: rename to PredictedTrafficLightState, update field names
+  * fix: change CMakeLists.txt to alphabetical order
+  * fix: add local_perception as predicted traffic light state information_source
+  ---------
+* chore: fix email domain (`#133 <https://github.com/autowarefoundation/autoware_msgs/issues/133>`_)
+* chore: update maintainers (`#132 <https://github.com/autowarefoundation/autoware_msgs/issues/132>`_)
+* Contributors: Mete Fatih Cırıt, Yu Asabe
+
 1.7.0 (2025-04-21)
 ------------------
 * feat(autoware_sensing_msgs): implement the proposed universal radar messages (`#120 <https://github.com/autowarefoundation/autoware_msgs/issues/120>`_)
