@@ -8,6 +8,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/AutowareState.msg"
   "msg/HazardStatus.msg"
   "msg/HazardStatusStamped.msg"
+  "msg/ServiceLog.msg"
   DEPENDENCIES
     geometry_msgs
     std_msgs
