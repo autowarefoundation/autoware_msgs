@@ -1,0 +1,41 @@
+name: bump-new-version
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_branch:
+        description: 'Branch to merge from'
+        required: true
+        default: 'main'
+      target_branch:
+        description: 'Branch to merge into'
+        required: true
+        default: 'humble'
+      bump_version:
+        description: 'Version bump type'
+        required: true
+        default: 'patch'
+      repository_owner:
+        description: 'Repository owner (org or user)'
+        required: false
+        default: 'autowarefoundation'
+
+jobs:
+  update-versions:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Generate token
+        id: generate-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.PRIVATE_KEY }}
+
+      - name: Run
+        uses: autowarefoundation/autoware-github-actions/bump-new-version@v1
+        with:
+          github_token: ${{ steps.generate-token.outputs.token }}
+          source_branch: ${{ github.event.inputs.source_branch }}
+          target_branch: ${{ github.event.inputs.target_branch }}
+          bump_version: ${{ github.event.inputs.bump_version }}
+          repository_owner: ${{ github.event.inputs.repository_owner }}
