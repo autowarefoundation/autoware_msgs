@@ -4,21 +4,26 @@ on:
   workflow_dispatch:
     inputs:
       source_branch:
-        description: 'Branch to merge from'
+        description: The branch to merge from, which can be from the original or a forked repository.
         required: true
-        default: 'main'
+        default: main
       target_branch:
-        description: 'Branch to merge into'
+        description: The branch to merge into, owned by the original repository owner.
         required: true
-        default: 'humble'
+        default: main
       bump_version:
-        description: 'Version bump type'
+        description: The type of version bump to apply.
         required: true
-        default: 'patch'
-      repository_owner:
-        description: 'Repository owner (org or user)'
+        default: patch
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
+      source_repository_owner:
+        description: The owner of the source repository (organization or user).
         required: false
-        default: 'autowarefoundation'
+        default: autowarefoundation
 
 jobs:
   update-versions:
@@ -38,4 +43,4 @@ jobs:
           source_branch: ${{ github.event.inputs.source_branch }}
           target_branch: ${{ github.event.inputs.target_branch }}
           bump_version: ${{ github.event.inputs.bump_version }}
-          repository_owner: ${{ github.event.inputs.repository_owner }}
+          source_repository_owner: ${{ github.event.inputs.source_repository_owner }}
