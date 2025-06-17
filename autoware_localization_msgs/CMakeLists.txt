@@ -8,6 +8,7 @@ set(msg_files
   "msg/KinematicState.msg")
 
 set(msg_dependencies
+  autoware_common_msgs
   std_msgs
   geometry_msgs)
 
