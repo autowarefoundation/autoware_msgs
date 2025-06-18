@@ -2,6 +2,11 @@
 Changelog for package autoware_system_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* feat(autoware_system_msgs): move services from tier4_system_msgs (`#140 <https://github.com/autowarefoundation/autoware_msgs/issues/140>`_)
+* Contributors: Ryohsuke Mitsudome
+
 1.8.0 (2025-05-21)
 ------------------
 * chore: fix email domain (`#133 <https://github.com/autowarefoundation/autoware_msgs/issues/133>`_)

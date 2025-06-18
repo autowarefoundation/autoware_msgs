@@ -2,6 +2,9 @@
 Changelog for package autoware_vehicle_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.8.0 (2025-05-21)
 ------------------
 * chore: fix email domain (`#133 <https://github.com/autowarefoundation/autoware_msgs/issues/133>`_)
