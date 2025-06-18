@@ -2,8 +2,8 @@
 Changelog for package autoware_system_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.9.0 (2025-06-18)
+------------------
 * feat(autoware_system_msgs): move services from tier4_system_msgs (`#140 <https://github.com/autowarefoundation/autoware_msgs/issues/140>`_)
 * Contributors: Ryohsuke Mitsudome
 

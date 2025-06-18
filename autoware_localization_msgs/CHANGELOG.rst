@@ -2,8 +2,8 @@
 Changelog for package autoware_localization_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.9.0 (2025-06-18)
+------------------
 * feat(autoware_localization_msgs): add InitializeLocalization service (`#139 <https://github.com/autowarefoundation/autoware_msgs/issues/139>`_)
   * feat: add InitializeLocalization service
   * fix: add service file in CMakeLists.txt
