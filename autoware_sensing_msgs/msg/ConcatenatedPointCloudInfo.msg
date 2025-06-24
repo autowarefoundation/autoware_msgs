@@ -24,7 +24,8 @@ bool is_dense                                    # True if there are no invalid 
 
 bool concatenation_success                       # Whether concatenation was successful
 uint8 matching_strategy                          # Strategy used for concatenation
-builtin_interfaces/Time min_reference_timestamp  # Min reference timestamp if used advanced mode
-builtin_interfaces/Time max_reference_timestamp  # Max reference timestamp if used advanced mode
+
+# Raw data of concatenation config, relevant to matching_strategy field.
+uint8[] matching_strategy_config
 
 SourcePointCloudInfo[] source_info               # Meta information of input point clouds
