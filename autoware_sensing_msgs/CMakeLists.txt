@@ -16,7 +16,6 @@ set(msg_files
   "msg/SourcePointCloudInfo.msg")
 
 set(msg_dependencies
-  builtin_interfaces
   geometry_msgs
   sensor_msgs
   std_msgs)
