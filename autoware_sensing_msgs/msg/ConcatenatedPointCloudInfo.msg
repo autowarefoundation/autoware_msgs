@@ -1,7 +1,7 @@
 # This message holds information about a concatenated point cloud that combines multiple source
 # point clouds, including the overall point cloud structure and metadata for each source segment.
 
-# Time of sensor data acquisition, and the coordinate frame ID (for 3d points).
+# The oldest stamp of the sensor that was concatenated, and the coordinate frame ID (for 3d points).
 std_msgs/Header header
 
 # 2D structure of the point cloud. If the cloud is unordered, height is
