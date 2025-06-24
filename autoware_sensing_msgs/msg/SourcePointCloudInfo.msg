@@ -9,7 +9,7 @@ std_msgs/Header header
 uint32 height
 uint32 width
 
-string topic           # Source topic
+string topic  # Source topic
 
 # The starting index (inclusive) of the point cloud segment within the concatenated point cloud
 uint32 idx_begin
