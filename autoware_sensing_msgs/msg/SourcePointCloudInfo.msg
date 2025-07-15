@@ -16,5 +16,5 @@ uint8 status              # Status of the source point cloud
 # The starting index (inclusive) of the point cloud segment within the concatenated point cloud
 uint32 idx_begin
 
-# The lenght of the point cloud segment in the concatenated point cloud
+# The length of the point cloud segment in the concatenated point cloud
 uint32 length
