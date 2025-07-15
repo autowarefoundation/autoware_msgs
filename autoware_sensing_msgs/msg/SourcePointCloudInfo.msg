@@ -5,7 +5,6 @@
 uint8 STATUS_OK = 0       # Cloud received (may have 0 or more points)
 uint8 STATUS_TIMEOUT = 1  # Cloud not received due to timeout
 uint8 STATUS_INVALID = 2  # Cloud arrived but was malformed/corrupt
-uint8 status
 
 # Time of sensor data acquisition, and the coordinate frame ID (for 3d points).
 std_msgs/Header header
