@@ -49,7 +49,6 @@ For this information, you can use the [TwistWithCovarianceStamped](http://docs.r
 Its structure is as follows:
 
 - `geometry_msgs/TwistWithCovarianceStamped` following fields are used:
-
   - `std_msgs/Header` header
   - `geometry_msgs/TwistWithCovariance` twist
     - `geometry_msgs/Twist` twist
@@ -70,7 +69,6 @@ For this information, you can use the [AccelWithCovarianceStamped](https://docs.
 Its structure is as follows:
 
 - `geometry_msgs/AccelWithCovarianceStamped` following fields are used:
-
   - `std_msgs/Header` header
   - `geometry_msgs/AccelWithCovariance` accel
     - `geometry_msgs/Accel` accel
@@ -236,6 +234,7 @@ In the message file, it is a `float64[36]` array. We fill the indices at `i*7, i
 This message provides metadata about concatenated point clouds that combine multiple LiDAR sensor inputs. It includes information about the concatenation strategy used and detailed metadata for each source point cloud segment.
 
 **Fields:**
+
 - `header`: Standard ROS header with timestamp and frame information for the concatenated point cloud
 - `concatenation_success`: Boolean indicating whether the concatenation process completed successfully
 - `matching_strategy`: Strategy used for concatenation (see constants below)
@@ -243,6 +242,7 @@ This message provides metadata about concatenated point clouds that combine mult
 - `source_info`: Array of metadata for each input point cloud source
 
 **Available concatenation strategies:**
+
 - **Naive** (`STRATEGY_NAIVE`): Direct concatenation without complex timestamp matching, suitable for non-synchronized LiDAR sensors
 - **Advanced** (`STRATEGY_ADVANCED`): Precise timestamp alignment with offset compensation and noise handling, ideal for synchronized LiDAR sensors
 
@@ -251,6 +251,7 @@ This message provides metadata about concatenated point clouds that combine mult
 This message contains metadata for individual point cloud segments within a concatenated point cloud, including status information, spatial boundaries, and source topic details.
 
 **Fields:**
+
 - `header`: Original timestamp and frame ID from the source point cloud
 - `topic`: ROS topic name where the source point cloud was received
 - `status`: Processing status of the source point cloud (see constants below)
@@ -258,6 +259,7 @@ This message contains metadata for individual point cloud segments within a conc
 - `length`: Number of points from this source in the concatenated point cloud
 
 **Available status codes:**
+
 - `STATUS_OK`: Point cloud received successfully (may contain 0 or more points)
 - `STATUS_TIMEOUT`: Point cloud not received due to timeout
 - `STATUS_INVALID`: Point cloud was malformed or corrupt
