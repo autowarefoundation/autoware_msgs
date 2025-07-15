@@ -238,7 +238,7 @@ This message provides metadata about concatenated point clouds that combine mult
 - `header`: Standard ROS header with timestamp and frame information for the concatenated point cloud
 - `concatenation_success`: Boolean indicating whether the concatenation process completed successfully
 - `matching_strategy`: Strategy used for concatenation (see constants below)
-- `matching_strategy_config`: Raw encoded configuration data specific to the matching strategy (decoded by the node)
+- `matching_strategy_config`: Raw encoded configuration data specific to the matching strategy (decoded by the node). See [concatenate_and_time_synchronize_node documentation](https://autowarefoundation.github.io/autoware_universe/main/sensing/autoware_pointcloud_preprocessor/docs/concatenate-data/#meta-information-topic).
 - `source_info`: Array of metadata for each input point cloud source
 
 **Available concatenation strategies:**
