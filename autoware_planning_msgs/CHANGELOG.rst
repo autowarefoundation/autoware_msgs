@@ -2,6 +2,11 @@
 Changelog for package autoware_planning_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.10.0 (2025-07-18)
+-------------------
+* chore: update maintainer for autoware_msgs packages (`#143 <https://github.com/autowarefoundation/autoware_msgs/issues/143>`_)
+* Contributors: Ryohsuke Mitsudome
+
 1.9.0 (2025-06-18)
 ------------------
 * feat(autoware_planning_msgs): add route services (`#138 <https://github.com/autowarefoundation/autoware_msgs/issues/138>`_)
