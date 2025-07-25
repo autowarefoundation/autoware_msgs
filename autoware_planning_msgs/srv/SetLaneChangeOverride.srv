@@ -1,0 +1,3 @@
+uint8 lane_change_direction
+---
+autoware_common_msgs/ResponseStatus status
