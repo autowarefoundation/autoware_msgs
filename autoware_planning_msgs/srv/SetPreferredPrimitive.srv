@@ -1,0 +1,5 @@
+autoware_planning_msgs/LaneletPrimitive[] preferred_primitives
+bool reset
+unique_identifier_msgs/UUID uuid
+---
+autoware_common_msgs/ResponseStatus status
