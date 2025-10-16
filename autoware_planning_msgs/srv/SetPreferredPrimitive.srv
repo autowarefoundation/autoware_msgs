@@ -1,4 +1,6 @@
+# Holds the list of preferred_primitives to be modified to in the current-route
 autoware_planning_msgs/LaneletPrimitive[] preferred_primitives
+# Set to true if there has been a modification, holds false otherwise
 bool reset
 unique_identifier_msgs/UUID uuid
 ---
