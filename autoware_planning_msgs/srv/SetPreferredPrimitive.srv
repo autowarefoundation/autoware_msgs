@@ -1,6 +1,7 @@
 # Holds the list of preferred_primitives to be modified to in the current-route
 autoware_planning_msgs/LaneletPrimitive[] preferred_primitives
-# Set to true if there has been a modification, holds false otherwise
+# reset flag for preferred primitives in route
+# If set to true, this signals to mission_planner that the preferred-primitives have been reverted to those of the original path
 bool reset
 # ID of the route that will be modified.  
 unique_identifier_msgs/UUID route_uuid
