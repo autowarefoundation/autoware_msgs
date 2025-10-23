@@ -2,8 +2,8 @@
 Changelog for package autoware_planning_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.11.0 (2025-10-23)
+-------------------
 * feat(autoware_planning_msgs): added srv to package (`#151 <https://github.com/autowarefoundation/autoware_msgs/issues/151>`_)
   * added srv to package
   * comments added
