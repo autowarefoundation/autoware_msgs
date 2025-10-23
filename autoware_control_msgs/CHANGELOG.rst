@@ -2,6 +2,9 @@
 Changelog for package autoware_control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.10.0 (2025-07-18)
 -------------------
 

@@ -2,6 +2,9 @@
 Changelog for package autoware_sensing_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.10.0 (2025-07-18)
 -------------------
 * feat(autoware_sensing_msgs): add PointCloud meta info msgs (`#142 <https://github.com/autowarefoundation/autoware_msgs/issues/142>`_)
