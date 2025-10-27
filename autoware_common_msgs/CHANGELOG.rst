@@ -2,6 +2,9 @@
 Changelog for package autoware_common_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.11.0 (2025-10-23)
+-------------------
+
 1.10.0 (2025-07-18)
 -------------------
 * chore: update maintainer for autoware_msgs packages (`#143 <https://github.com/autowarefoundation/autoware_msgs/issues/143>`_)

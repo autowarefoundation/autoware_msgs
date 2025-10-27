@@ -2,6 +2,21 @@
 Changelog for package autoware_planning_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.11.0 (2025-10-23)
+-------------------
+* feat(autoware_planning_msgs): added srv to package (`#151 <https://github.com/autowarefoundation/autoware_msgs/issues/151>`_)
+  * added srv to package
+  * comments added
+  * Apply suggestion from @mitsudome-r
+  Co-authored-by: Ryohsuke Mitsudome <43976834+mitsudome-r@users.noreply.github.com>
+  * fix
+  * rename
+  * style(pre-commit): autofix
+  ---------
+  Co-authored-by: Ryohsuke Mitsudome <43976834+mitsudome-r@users.noreply.github.com>
+  Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+* Contributors: Arjun Jagdish Ram
+
 1.10.0 (2025-07-18)
 -------------------
 * chore: update maintainer for autoware_msgs packages (`#143 <https://github.com/autowarefoundation/autoware_msgs/issues/143>`_)
