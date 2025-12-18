@@ -24,8 +24,12 @@ uint8 SOLID_OFF = 1
 uint8 SOLID_ON = 2
 uint8 FLASHING = 3
 
-# variables
+# fields
+# Traffic light color (use color constants above, or UNKNOWN)
 uint8 color
+# Traffic light shape (use shape constants above, or UNKNOWN)
 uint8 shape
+# Traffic light status (use status constants above, or UNKNOWN)
 uint8 status
+# Detection confidence. Range: 0.0 to 1.0
 float32 confidence

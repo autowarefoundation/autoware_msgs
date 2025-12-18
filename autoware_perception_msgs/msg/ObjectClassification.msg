@@ -11,5 +11,7 @@ uint8 HAZARD = 9 # Defined as an object that can cause danger to autonomous driv
 uint8 OVER_DRIVABLE = 10 # Defined as an object that can be safely driven over (e.g., leaf)
 uint8 UNDER_DRIVABLE = 11 # Defined as an object that can be safely driven under (e.g., overpass)
 
+# Object classification label (use constants above)
 uint8 label
+# Classification probability. Range: 0.0 to 1.0
 float32 probability
