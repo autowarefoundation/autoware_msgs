@@ -1,5 +1,5 @@
 std_msgs/Header header
-# Goal pose in map frame
+# Goal pose in header.frame_id frame
 geometry_msgs/Pose goal_pose
 # Intermediate waypoints between current position and goal
 geometry_msgs/Pose[] waypoints
