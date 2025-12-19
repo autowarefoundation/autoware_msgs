@@ -5,7 +5,7 @@ geometry_msgs/Pose goal_pose
 autoware_planning_msgs/LaneletSegment[] segments
 # Unique identifier for this route request
 unique_identifier_msgs/UUID uuid
-# If true, planner may modify route for optimization
+# If true, the goal pose may be modified by the service before the route is planned
 bool allow_modification
 ---
 autoware_common_msgs/ResponseStatus status
