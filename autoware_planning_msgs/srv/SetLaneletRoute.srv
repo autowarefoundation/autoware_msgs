@@ -1,5 +1,5 @@
 std_msgs/Header header
-# Goal pose in map frame
+# Goal pose in header.frame_id frame
 geometry_msgs/Pose goal_pose
 # Lanelet segments defining the route path
 autoware_planning_msgs/LaneletSegment[] segments
