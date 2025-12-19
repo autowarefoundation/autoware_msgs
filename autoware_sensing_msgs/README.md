@@ -49,7 +49,6 @@ For this information, you can use the [TwistWithCovarianceStamped](http://docs.r
 Its structure is as follows:
 
 - `geometry_msgs/TwistWithCovarianceStamped` following fields are used:
-
   - `std_msgs/Header` header
   - `geometry_msgs/TwistWithCovariance` twist
     - `geometry_msgs/Twist` twist
@@ -70,7 +69,6 @@ For this information, you can use the [AccelWithCovarianceStamped](https://docs.
 Its structure is as follows:
 
 - `geometry_msgs/AccelWithCovarianceStamped` following fields are used:
-
   - `std_msgs/Header` header
   - `geometry_msgs/AccelWithCovariance` accel
     - `geometry_msgs/Accel` accel
