@@ -3,7 +3,7 @@
 <package format="3">
   <name>autoware_simulation_msgs</name>
   <version>1.11.0</version>
-  <description>Tier IV simulation messages package.</description>
+  <description>Autoware simulation messages package.</description>
   <maintainer email="mfc@autoware.org">Mete Fatih Cirit</maintainer>
   <maintainer email="ryohsuke.mitsudome@tier4.jp">Ryohsuke Mitsudome</maintainer>
   <maintainer email="yutaka.kondo@tier4.jp">Yutaka Kondo</maintainer>
