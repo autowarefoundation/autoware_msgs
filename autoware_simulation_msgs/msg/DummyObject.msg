@@ -32,4 +32,4 @@ uint8 DELETEALL=3
 uint8 PREDICT=4
 
 # Requested action for this message
-int32 action
+uint8 action
