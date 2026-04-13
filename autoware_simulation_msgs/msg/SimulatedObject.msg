@@ -5,7 +5,7 @@ std_msgs/Header header
 unique_identifier_msgs/UUID id
 
 # Initial pose, twist, and accel with covariance
-autoware_simulation_msgs/DummyObjectInitialState initial_state
+autoware_simulation_msgs/SimulatedObjectInitialState initial_state
 
 # Semantic class for perception and behavior logic
 autoware_perception_msgs/ObjectClassification classification
