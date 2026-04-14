@@ -1,4 +1,4 @@
-# Timestamp and frame for the dummy object state
+# Timestamp and frame for the simulated object state
 std_msgs/Header header
 
 # Stable identifier for add/modify/delete operations
@@ -20,16 +20,16 @@ float32 max_velocity
 float32 min_velocity
 
 # Action values:
-# - ADD: Add a new dummy object with this id
-# - MODIFY: Update an existing dummy object with this id
-# - DELETE: Remove a single dummy object by id
-# - DELETEALL: Remove all dummy objects
-# - PREDICT: Request prediction for this object
+# - ADD: Add a new simulated object with this id
+# - MODIFY: Update an existing simulated object with this id
+# - DELETE: Remove a single simulated object by id
+# - DELETEALL: Remove all simulated objects
+# - REQUEST_PREDICTION: Request prediction for this object
 uint8 ADD=0
 uint8 MODIFY=1
 uint8 DELETE=2
 uint8 DELETEALL=3
-uint8 PREDICT=4
+uint8 REQUEST_PREDICTION=4
 
 # Requested action for this message
 uint8 action
