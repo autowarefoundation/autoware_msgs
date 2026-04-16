@@ -1,4 +1,4 @@
-# Initial pose with covariance
+# Initial pose with covariance in object-relative frame
 geometry_msgs/PoseWithCovariance pose_covariance
 
 # Initial velocity with covariance in object-relative frame

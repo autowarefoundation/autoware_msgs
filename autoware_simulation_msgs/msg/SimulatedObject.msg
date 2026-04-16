@@ -19,17 +19,15 @@ float32 max_velocity
 # Min allowed speed for this object [m/s]
 float32 min_velocity
 
-# Action values:
+# Lifecycle action for this object:
 # - ADD: Add a new simulated object with this id
 # - MODIFY: Update an existing simulated object with this id
 # - DELETE: Remove a single simulated object by id
-# - DELETEALL: Remove all simulated objects
-# - REQUEST_PREDICTION: Request prediction for this object
+# - DELETE_ALL: Remove all simulated objects
 uint8 ADD=0
 uint8 MODIFY=1
 uint8 DELETE=2
-uint8 DELETEALL=3
-uint8 REQUEST_PREDICTION=4
+uint8 DELETE_ALL=3
 
 # Requested action for this message
 uint8 action
