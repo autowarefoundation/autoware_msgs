@@ -28,6 +28,9 @@ uint8 ADD=0
 uint8 MODIFY=1
 uint8 DELETE=2
 uint8 DELETE_ALL=3
-
-# Requested action for this message
 uint8 action
+
+# Movement model used after spawning
+uint8 STRAIGHT_LINE=0
+uint8 PREDICTED_PATH=1
+uint8 movement_model
