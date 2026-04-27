@@ -2,6 +2,30 @@
 Changelog for package autoware_planning_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.12.0 (2026-04-27)
+-------------------
+* docs: add documentation to remaining msg/srv fields (`#156 <https://github.com/autowarefoundation/autoware_msgs/issues/156>`_)
+  * docs: add unit and range documentation to message fields
+  Add inline comments to clarify units and valid ranges for:
+  - TrafficLightElement.msg: confidence range (0.0-1.0)
+  - ObjectClassification.msg: probability range (0.0-1.0)
+  - SteeringReport.msg: steering_tire_angle unit [rad]
+  - VelocityReport.msg: velocity units [m/s], heading_rate [rad/s]
+  Related to https://github.com/autowarefoundation/autoware_adapi_msgs/issues/106
+  * add comments
+  * style(pre-commit): autofix
+  * Apply suggestions from code review
+  Co-authored-by: Mete Fatih Cırıt <mfc@autoware.org>
+  * Update autoware_system_msgs/srv/ChangeOperationMode.srv
+  Co-authored-by: Mete Fatih Cırıt <mfc@autoware.org>
+  * Update autoware_vehicle_msgs/srv/ControlModeCommand.srv
+  Co-authored-by: Mete Fatih Cırıt <mfc@autoware.org>
+  * Update autoware_planning_msgs/srv/SetWaypointRoute.srv
+  ---------
+  Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+  Co-authored-by: Mete Fatih Cırıt <mfc@autoware.org>
+* Contributors: Yutaka Kondo
+
 1.11.0 (2025-10-23)
 -------------------
 * feat(autoware_planning_msgs): added srv to package (`#151 <https://github.com/autowarefoundation/autoware_msgs/issues/151>`_)
