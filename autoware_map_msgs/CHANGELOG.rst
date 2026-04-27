@@ -2,8 +2,8 @@
 Changelog for package autoware_map_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.12.0 (2026-04-27)
+-------------------
 * docs: add documentation to remaining msg/srv fields (`#156 <https://github.com/autowarefoundation/autoware_msgs/issues/156>`_)
   * docs: add unit and range documentation to message fields
   Add inline comments to clarify units and valid ranges for:
