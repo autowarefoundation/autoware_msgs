@@ -11,8 +11,8 @@ ament_auto_find_build_dependencies()
 rosidl_generate_interfaces(${PROJECT_NAME}
     "msg/ActuationCommand.msg"
     "msg/ActuationCommandStamped.msg"
-    "msg/ActuationStatus.msg"
-    "msg/ActuationStatusStamped.msg"
+    "msg/ActuationReport.msg"
+    "msg/ActuationReportStamped.msg"
     "msg/ControlModeReport.msg"
     "msg/Engage.msg"
     "msg/GearCommand.msg"
