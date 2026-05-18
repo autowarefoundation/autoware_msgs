@@ -1,6 +1,6 @@
 # autoware_vehicle_msgs
 
-### ActuationCommand.msg
+## ActuationCommand.msg
 
 Defines an actuator-level command for the vehicle.
 
@@ -31,11 +31,11 @@ Note that for `brake_cmd`, the command itself is positive while the resulting de
 
 For all three fields, the canonical contract is _whatever the vehicle's actuation maps and parameters define_. A different vehicle interface (CARLA, AWSIM, a real CAN driver) can use different ranges or scaling.
 
-### ActuationCommandStamped.msg
+## ActuationCommandStamped.msg
 
 Wraps `ActuationCommand` with a `std_msgs/Header`, typically containing the time at which the command was issued. The `frame_id` is not used.
 
-### ActuationReport.msg
+## ActuationReport.msg
 
 Defines the _actual_ actuator state reported back by the vehicle, mirroring `ActuationCommand`.
 
@@ -47,6 +47,6 @@ Fields use the same units, sign conventions, and modes as `ActuationCommand`:
 - `brake_report`: Brake pedal command the vehicle is currently applying (vehicle-defined scale).
 - `steer_report`: Steering actuation signal the vehicle is currently applying. Same mode-dependent semantics as `steer_cmd`.
 
-### ActuationReportStamped.msg
+## ActuationReportStamped.msg
 
 Wraps `ActuationReport` with a `std_msgs/Header` carrying the report's timestamp.
