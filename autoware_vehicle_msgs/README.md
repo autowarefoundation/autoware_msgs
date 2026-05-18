@@ -13,11 +13,11 @@ The typical producer is `autoware_raw_vehicle_cmd_converter`, which converts a `
 
 Fields:
 
-| Field       | Meaning                                                                              | Range                                                                 | Sign                      | Units         |
-| ----------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------- | ------------------------- | ------------- |
-| `accel_cmd` | Throttle pedal command (vehicle-defined scale)                                       | Vehicle-dependent (defined by actuation maps and vehicle interface)   | n/a                       | Dimensionless |
-| `brake_cmd` | Brake pedal command (vehicle-defined scale)                                          | Vehicle-dependent (defined by actuation maps and vehicle interface)   | n/a                       | Dimensionless |
-| `steer_cmd` | Steering actuation signal. Semantics depend on `convert_steer_cmd_method`, see below | Vehicle-dependent (defined by actuation maps and vehicle interface)   | Left positive (Ackermann) | See below     |
+| Field       | Meaning                                                                              | Range                                                               | Sign                      | Units         |
+| ----------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------- | ------------------------- | ------------- |
+| `accel_cmd` | Throttle pedal command (vehicle-defined scale)                                       | Vehicle-dependent (defined by actuation maps and vehicle interface) | n/a                       | Dimensionless |
+| `brake_cmd` | Brake pedal command (vehicle-defined scale)                                          | Vehicle-dependent (defined by actuation maps and vehicle interface) | n/a                       | Dimensionless |
+| `steer_cmd` | Steering actuation signal. Semantics depend on `convert_steer_cmd_method`, see below | Vehicle-dependent (defined by actuation maps and vehicle interface) | Left positive (Ackermann) | See below     |
 
 Note that for `brake_cmd`, the command itself is positive while the resulting deceleration is negative.
 
