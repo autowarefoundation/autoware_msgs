@@ -1,9 +1,5 @@
 # autoware_vehicle_msgs
 
-## Design
-
-Vehicle dimensions and axes: <https://autowarefoundation.github.io/autoware-documentation/main/design/autoware-architecture-v1/interfaces/components/vehicle-dimensions/>
-
 ### ActuationCommand.msg
 
 Defines an actuator-level command for the vehicle.
@@ -17,11 +13,11 @@ The typical producer is `autoware_raw_vehicle_cmd_converter`, which converts a `
 
 Fields:
 
-| Field       | Meaning                                                                              | Range                                                                                                          | Sign                      | Units         |
-| ----------- | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------- | ------------------------- | ------------- |
-| `accel_cmd` | Normalized throttle pedal position                                                   | `[0.0, 1.0]`. Realistic upper bound from `max_throttle` (default `0.4`)                                        | n/a                       | Dimensionless |
-| `brake_cmd` | Normalized brake pedal position                                                      | `[0.0, 1.0]`. Realistic upper bound from `max_brake` (default `0.8`)                                           | n/a                       | Dimensionless |
-| `steer_cmd` | Steering actuation signal. Semantics depend on `convert_steer_cmd_method`, see below | Vehicle-dependent. Hard clamp `[min_steer, max_steer]` (default `[-10.0, 10.0]`) is a safety stop, not nominal | Left positive (Ackermann) | See below     |
+| Field       | Meaning                                                                              | Range                                                                 | Sign                      | Units         |
+| ----------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------- | ------------------------- | ------------- |
+| `accel_cmd` | Throttle pedal command (vehicle-defined scale)                                       | Vehicle-dependent (defined by actuation maps and vehicle interface)   | n/a                       | Dimensionless |
+| `brake_cmd` | Brake pedal command (vehicle-defined scale)                                          | Vehicle-dependent (defined by actuation maps and vehicle interface)   | n/a                       | Dimensionless |
+| `steer_cmd` | Steering actuation signal. Semantics depend on `convert_steer_cmd_method`, see below | Vehicle-dependent (defined by actuation maps and vehicle interface)   | Left positive (Ackermann) | See below     |
 
 Note that for `brake_cmd`, the command itself is positive while the resulting deceleration is negative.
 
@@ -33,7 +29,7 @@ Note that for `brake_cmd`, the command itself is positive while the resulting de
 | `"vgr"`                    | Steering wheel angle, derived from the tire angle via a velocity-dependent gear ratio     | radians         |
 | `"steer_map"`              | Vehicle-specific actuation signal (for example an EPS voltage), produced from a steer map | vehicle-defined |
 
-For all three fields, the canonical contract is _whatever the vehicle's actuation maps and parameters define_. The values above are conventions used by the reference `autoware_raw_vehicle_cmd_converter`; a different vehicle interface (CARLA, AWSIM, a real CAN driver) is free to use a different convention.
+For all three fields, the canonical contract is _whatever the vehicle's actuation maps and parameters define_. A different vehicle interface (CARLA, AWSIM, a real CAN driver) can use different ranges or scaling.
 
 ### ActuationCommandStamped.msg
 
@@ -47,8 +43,8 @@ Producers: the vehicle interface (real or simulated). Consumers: tools that need
 
 Fields use the same units, sign conventions, and modes as `ActuationCommand`:
 
-- `accel_report`: Normalized throttle pedal position the vehicle is currently applying.
-- `brake_report`: Normalized brake pedal position the vehicle is currently applying.
+- `accel_report`: Throttle pedal command the vehicle is currently applying (vehicle-defined scale).
+- `brake_report`: Brake pedal command the vehicle is currently applying (vehicle-defined scale).
 - `steer_report`: Steering actuation signal the vehicle is currently applying. Same mode-dependent semantics as `steer_cmd`.
 
 ### ActuationReportStamped.msg
