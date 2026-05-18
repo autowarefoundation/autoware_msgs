@@ -1,3 +1,3 @@
 # Stamped actuation report.
 std_msgs/Header header
-autoware_vehicle_msgs/ActuationReport status
+autoware_vehicle_msgs/ActuationReport actuation_report
