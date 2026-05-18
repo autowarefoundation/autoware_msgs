@@ -1,3 +1,3 @@
 # Stamped actuation command.
 std_msgs/Header header
-autoware_vehicle_msgs/ActuationCommand actuation
+autoware_vehicle_msgs/ActuationCommand actuation_command
