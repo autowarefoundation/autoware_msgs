@@ -2,8 +2,8 @@
 Changelog for package autoware_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.13.0 (2026-05-20)
+-------------------
 * refactor(autoware_msgs): add USE_SCOPED_HEADER_INSTALL_DIR (`#161 <https://github.com/autowarefoundation/autoware_msgs/issues/161>`_)
   Co-authored-by: github-actions <github-actions@github.com>
 * Contributors: Vishal Chauhan

@@ -2,8 +2,8 @@
 Changelog for package autoware_vehicle_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.13.0 (2026-05-20)
+-------------------
 * feat(`autoware_vehicle_msgs`): port actuation command/status messages from `tier4_vehicle_msgs` (`#165 <https://github.com/autowarefoundation/autoware_msgs/issues/165>`_)
   * feat(`autoware_vehicle_msgs`): add actuation command/status messages
   * rename: `[accel,brake,steer]_status` to `[accel,brake,steer]_report`
