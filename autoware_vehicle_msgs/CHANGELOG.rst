@@ -2,6 +2,39 @@
 Changelog for package autoware_vehicle_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* feat(`autoware_vehicle_msgs`): port actuation command/status messages from `tier4_vehicle_msgs` (`#165 <https://github.com/autowarefoundation/autoware_msgs/issues/165>`_)
+  * feat(`autoware_vehicle_msgs`): add actuation command/status messages
+  * rename: `[accel,brake,steer]_status` to `[accel,brake,steer]_report`
+  * Apply the following review comment
+  - https://github.com/autowarefoundation/autoware_msgs/pull/165#discussion_r3172838038
+  * rename: `ActuationStatus.msg` -> `ActuationReport.msg`
+  * Apply the following review comment
+  - https://github.com/autowarefoundation/autoware_msgs/pull/165#discussion_r3172838038
+  * docs(autoware_vehicle_msgs): add README describing actuation messages
+  Documents ActuationCommand / ActuationCommandStamped / ActuationReport /
+  ActuationReportStamped, including the relationship to autoware_control_msgs/Control.msg,
+  per-field ranges and units, and the three steer_cmd modes selected by
+  convert_steer_cmd_method.
+  * refactor: make field name explicit (`status` => `actuation_report`)
+  Co-authored-by: Mete Fatih Cırıt <mfc@autoware.org>
+  * refactor: make field name explicit (`actuation` => `actuation_command`)
+  Co-authored-by: Mete Fatih Cırıt <mfc@autoware.org>
+  * bug: fix format violation (details below)
+  * The format is defined in the following official page
+  - https://autowarefoundation.github.io/autoware-documentation/main/contributing/coding-guidelines/ros-nodes/message-guidelines/#format
+  * fix: `README.md`, based on the information below
+  * https://autowarefoundation.github.io/autoware_universe/main/vehicle/autoware_accel_brake_map_calibrator/
+  * style(pre-commit): autofix
+  * fix: by `pre-commit`
+  ---------
+  Co-authored-by: Mete Fatih Cırıt <mfc@autoware.org>
+  Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+* refactor(autoware_msgs): add USE_SCOPED_HEADER_INSTALL_DIR (`#161 <https://github.com/autowarefoundation/autoware_msgs/issues/161>`_)
+  Co-authored-by: github-actions <github-actions@github.com>
+* Contributors: Junya Sasaki, Vishal Chauhan
+
 1.12.0 (2026-04-27)
 -------------------
 * docs: add documentation to remaining msg/srv fields (`#156 <https://github.com/autowarefoundation/autoware_msgs/issues/156>`_)

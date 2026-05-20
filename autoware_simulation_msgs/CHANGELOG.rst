@@ -2,6 +2,9 @@
 Changelog for package autoware_simulation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.12.0 (2026-04-27)
 -------------------
 * chore(`autoware_simulation_msgs`): ported from `tier4_autoware_msgs` (`#162 <https://github.com/autowarefoundation/autoware_msgs/issues/162>`_)
