@@ -3,7 +3,7 @@
 This document defines the formatting and naming rules for all `.msg`, `.srv`, and `.action` files in this repository.
 
 **Upstream specification:**
-https://autowarefoundation.github.io/autoware-documentation/main/contributing/coding-guidelines/ros-nodes/message-guidelines/
+<https://autowarefoundation.github.io/autoware-documentation/main/contributing/coding-guidelines/ros-nodes/message-guidelines/>
 
 ---
 
@@ -34,12 +34,14 @@ A compliant `.msg` file follows this layout (sections separated by blank lines):
 - Aim for 1–3 lines. Link to external documentation for deep context.
 
 **Good:**
+
 ```
 # Estimated state of a detected object in the environment.
 # Published by perception nodes; consumed by prediction and planning.
 ```
 
 **Bad (no header):**
+
 ```
 uint32 id
 float32 distance
@@ -52,12 +54,14 @@ float32 distance
 Every field must have a comment block immediately above it (no blank line between the comment and the field).
 
 The comment must:
+
 1. Describe what the field represents in one line.
 2. State `(required)` or `(optional)`.
 3. If `optional`: include `# default: <value>` on a separate comment line.
 4. Optionally include `# e.g. <value>` to show a representative value.
 
 **Good:**
+
 ```
 # Unique object identifier assigned by the tracker. (required)
 # e.g. 42
@@ -70,6 +74,7 @@ float32 lateral_velocity
 ```
 
 **Bad (missing annotation):**
+
 ```
 # Unique object identifier.
 uint32 object_id
@@ -83,32 +88,32 @@ uint32 object_id
 
 When a field uses the default unit for its physical dimension, do **not** add any unit suffix to the field name.
 
-| Dimension          | Default unit | Bad example           | Good example       |
-|--------------------|-------------|------------------------|--------------------|
-| Distance           | m           | `path_length_m`        | `path_length`      |
-| Angle              | rad         | `heading_rad`          | `heading`          |
-| Time               | s           | `elapsed_time_s`       | `elapsed_time`     |
-| Speed / velocity   | m/s         | `velocity_mps`         | `velocity`         |
-| Acceleration       | m/s²        | `accel_mps2`           | `accel`            |
-| Angular velocity   | rad/s       | `yaw_rate_radps`       | `yaw_rate`         |
-| Angular accel.     | rad/s²      | `angular_accel_radps2` | `angular_accel`    |
+| Dimension        | Default unit | Bad example            | Good example    |
+| ---------------- | ------------ | ---------------------- | --------------- |
+| Distance         | m            | `path_length_m`        | `path_length`   |
+| Angle            | rad          | `heading_rad`          | `heading`       |
+| Time             | s            | `elapsed_time_s`       | `elapsed_time`  |
+| Speed / velocity | m/s          | `velocity_mps`         | `velocity`      |
+| Acceleration     | m/s²         | `accel_mps2`           | `accel`         |
+| Angular velocity | rad/s        | `yaw_rate_radps`       | `yaw_rate`      |
+| Angular accel.   | rad/s²       | `angular_accel_radps2` | `angular_accel` |
 
 ### 4-2. Non-default units — approved suffixes only
 
 When a field intentionally uses a non-default unit, append **exactly** the suffix from the table below. No other spellings are accepted.
 
-| Dimension | Unit        | Approved suffix | Bad alternatives          |
-|-----------|-------------|-----------------|---------------------------|
-| Distance  | nanometer   | `_nm`           | `_nanometer`              |
-| Distance  | micrometer  | `_um`           | `_micrometer`             |
-| Distance  | millimeter  | `_mm`           | `_millimeter`, `_millis`  |
-| Distance  | kilometer   | `_km`           | `_kilometer`              |
-| Angle     | degree      | `_deg`          | `_degree`, `_degrees`     |
-| Time      | nanosecond  | `_ns`           | `_nanosec`, `_nano`       |
-| Time      | microsecond | `_us`           | `_microsec`               |
-| Time      | millisecond | `_ms`           | `_millisec`, `_millis`    |
-| Time      | minute      | `_min`          | `_minute`, `_minutes`     |
-| Time      | hour        | `_hour`         | `_hr`, `_hours`           |
+| Dimension | Unit        | Approved suffix | Bad alternatives         |
+| --------- | ----------- | --------------- | ------------------------ |
+| Distance  | nanometer   | `_nm`           | `_nanometer`             |
+| Distance  | micrometer  | `_um`           | `_micrometer`            |
+| Distance  | millimeter  | `_mm`           | `_millimeter`, `_millis` |
+| Distance  | kilometer   | `_km`           | `_kilometer`             |
+| Angle     | degree      | `_deg`          | `_degree`, `_degrees`    |
+| Time      | nanosecond  | `_ns`           | `_nanosec`, `_nano`      |
+| Time      | microsecond | `_us`           | `_microsec`              |
+| Time      | millisecond | `_ms`           | `_millisec`, `_millis`   |
+| Time      | minute      | `_min`          | `_minute`, `_minutes`    |
+| Time      | hour        | `_hour`         | `_hr`, `_hours`          |
 | Velocity  | km/h        | `_kmph`         | `_km_h`, `_kmh`, `_kph`  |
 
 ### 4-3. Suffix position — always a suffix, never a prefix
@@ -130,6 +135,7 @@ float32 velocity_vehicle_kmph   # GOOD — unit is a suffix
 - Each constant must have a preceding `#` comment explaining its meaning.
 
 **Good:**
+
 ```
 # Object classification constants
 # Object class is unknown or could not be determined
@@ -143,6 +149,7 @@ uint8 OBJECT_CAR        = 3
 ```
 
 **Bad:**
+
 ```
 uint8 Object_Unknown = 0     # wrong case
 uint8 PEDESTRIAN = 0         # duplicate value

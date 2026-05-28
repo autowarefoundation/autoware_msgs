@@ -24,10 +24,12 @@ Respond with a JSON object with the following structure:
 ```
 
 ## Severity guidance
+
 - **error**: Clear violation of a named rule (wrong constant case, disallowed unit suffix, missing required/optional annotation, etc.)
 - **warning**: Likely violation or best-practice issue (poor field description, unclear naming, ambiguous semantics)
 
 ## Important
+
 - Only report genuine violations. Do not invent problems that are not there.
 - If the file is fully compliant, return an empty violations list.
 - Be specific about what the problem is and how to fix it.

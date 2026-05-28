@@ -14,9 +14,7 @@ def check_file_with_llm(
     """Send the .msg file to Claude for style review. Returns parsed JSON result."""
 
     content = file_path.read_text(encoding="utf-8")
-    numbered = "\n".join(
-        f"{i+1:4d}  {line}" for i, line in enumerate(content.splitlines())
-    )
+    numbered = "\n".join(f"{i+1:4d}  {line}" for i, line in enumerate(content.splitlines()))
 
     user_message = f"""Please review the following ROS2 .msg file for style violations.
 
@@ -28,7 +26,7 @@ File: `{file_path.name}`
 
 Respond with the JSON format specified in your instructions."""
 
-    prompt =  Path("docs/format-guide.md").read_text(encoding="utf-8")
+    prompt = Path("docs/format-guide.md").read_text(encoding="utf-8")
     response = client.messages.create(
         model=model,
         max_tokens=2048,
@@ -47,9 +45,8 @@ Respond with the JSON format specified in your instructions."""
 
     return json.loads(raw)
 
-def format_llm_result(
-    result: dict, file_path: Path, use_color: bool = True
-) -> str:
+
+def format_llm_result(result: dict, file_path: Path, use_color: bool = True) -> str:
     violations = result.get("violations", [])
     summary = result.get("summary", "")
 
