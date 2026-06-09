@@ -21,7 +21,7 @@ concurrency:
 
 jobs:
   github-release:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Set tag name
         id: set-tag-name
