@@ -25,7 +25,7 @@ jobs:
   build-and-test-differential:
     needs: make-sure-label-is-present
     if: ${{ needs.make-sure-label-is-present.outputs.result == 'true' }}
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     container: ${{ matrix.container }}
     strategy:
       fail-fast: false
