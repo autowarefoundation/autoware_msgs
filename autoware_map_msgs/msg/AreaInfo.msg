@@ -1,9 +1,11 @@
 # Area info used as a query in map loading service
 # Note: this only supports cylindrical area message for now
 
-# [m] in map frame
+# X-coordinate of the area center in map frame (required)
 float32 center_x
-# [m] in map frame
+
+# Y-coordinate of the area center in map frame (required)
 float32 center_y
-# [m]
+
+# Radius of the area (required)
 float32 radius
