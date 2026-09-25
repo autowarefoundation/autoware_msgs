@@ -1,0 +1,5 @@
+{
+  "enabledPlugins": {
+    "autoware-harness@autoware-harness": true
+  }
+}

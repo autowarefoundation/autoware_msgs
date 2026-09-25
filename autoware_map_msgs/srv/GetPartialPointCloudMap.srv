@@ -1,10 +1,10 @@
-# Area query for map loading
-# (PCD grids that overlaps with the area is going to be loaded)
+# Area query for map loading.
+# PCD grids that overlap with the area are going to be loaded (required)
 AreaInfo area
 
 ---
-# Header
+# The timestamp when the data is generated or to be published (required)
 std_msgs/Header header
 
-# Newly loaded PCD maps with ID
+# Newly loaded PCD maps with ID (required)
 PointCloudMapCellWithID[] new_pointcloud_with_ids

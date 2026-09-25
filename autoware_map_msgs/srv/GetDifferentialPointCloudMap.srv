@@ -1,16 +1,16 @@
-# Area query for map loading
-# (PCD grids that overlaps with the area is going to be loaded)
+# Area query for map loading.
+# PCD grids that overlap with the area are going to be loaded (required)
 AreaInfo area
 
-# The IDs of PCD maps that the node already has
+# The IDs of PCD maps that the node already has (required)
 string[] cached_ids
 
 ---
-# Header
+# The timestamp when the data is generated or to be published (required)
 std_msgs/Header header
 
-# Newly loaded PCD maps with ID
+# Newly loaded PCD maps with ID (required)
 PointCloudMapCellWithID[] new_pointcloud_with_ids
 
-# Map IDs that the client side should remove
+# Map IDs that the client side should remove. This field is the subset of `cached_ids` (required)
 string[] ids_to_remove
