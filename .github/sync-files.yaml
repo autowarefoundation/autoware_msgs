@@ -27,6 +27,7 @@
     - source: .prettierignore
     - source: .prettierrc.yaml
     - source: .yamllint.yaml
+    - source: codecov.yaml
     - source: .github/workflows/build-and-test.yaml
       pre-commands: |
         sed -i '/build-depends-repos/d' {source}
