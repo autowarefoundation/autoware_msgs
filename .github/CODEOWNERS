@@ -7,6 +7,7 @@ autoware_msgs/** mfc@autoware.org ryohsuke.mitsudome@tier4.jp yutaka.kondo@tier4
 autoware_perception_msgs/** isamu.takagi@tier4.jp mfc@autoware.org ryohsuke.mitsudome@tier4.jp yukihiro.saito@tier4.jp yutaka.kondo@tier4.jp
 autoware_planning_msgs/** isamu.takagi@tier4.jp mfc@autoware.org ryohsuke.mitsudome@tier4.jp yukihiro.saito@tier4.jp yutaka.kondo@tier4.jp
 autoware_sensing_msgs/** mfc@autoware.org ryohsuke.mitsudome@tier4.jp yukihiro.saito@tier4.jp yutaka.kondo@tier4.jp
+autoware_simulation_msgs/** mfc@autoware.org ryohsuke.mitsudome@tier4.jp yutaka.kondo@tier4.jp
 autoware_system_msgs/** isamu.takagi@tier4.jp mfc@autoware.org ryohsuke.mitsudome@tier4.jp yukihiro.saito@tier4.jp yutaka.kondo@tier4.jp
 autoware_v2x_msgs/** isamu.takagi@tier4.jp ryohsuke.mitsudome@tier4.jp yukihiro.saito@tier4.jp
 autoware_vehicle_msgs/** mfc@autoware.org ryohsuke.mitsudome@tier4.jp yukihiro.saito@tier4.jp yutaka.kondo@tier4.jp
